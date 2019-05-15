@@ -10,7 +10,7 @@
         <ul class="nav">
           <li><a href="#">информация</a></li>
           <li><a href="#">фото и видео</a></li>
-          <li><a href="index.html"><img src="logo.png" alt="sedona"></a></li>
+          <li><a href="index.html"><img src="img/logo.png" alt="sedona"></a></li>
           <li><a href="#">карта штата</a></li>
           <li><a href="#">гостинницы</a></li>
         </ul>
@@ -26,7 +26,6 @@
       <h2 class="interest-main-word">заинтересовались?</h2>
       <p class="data-hotel">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинниц в седоне</p>
     </section>
-    
   </main>
   <footer>
     <div class="visit-container">
@@ -34,16 +33,56 @@
     </div>
     <div class="social-buttons-container">
       <ul class="social-buttons-list">
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
+        <li><a class="social-button" href="#">twitter<img src="img/tw-icon.svg" class="tw-icon" width="14" height="12"></a></li>
+        <li><a class="social-button" href="#">Facebook<img src="img/fb-icon.svg" class="fb-icon" width="10" height="9"></a></li>
+        <li><a class="social-button" href="#">youtube<img src="img/youtube-icon.svg" class="youtube-icon" height="13" width="12"></a></li>
       </ul>
     </div>
     <div class="footer-copyright-container">
       <p class="footer-copyright">
         <b>website by</b><br>
-        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="htmlacademy-logo" alt="HTML academy"></a>
+        <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmla.svg" class="logo-htmla" width="115" height="41"></a>
       </p>
+    </div>
+    <div class="form-container">
+      <div class="form-header">
+        <h3 class="form-name">поиск гостиницы в седоне</h3>
+      </div>
+      <div class="form">
+        <div class="answer-1">
+          <label for="Check-in date">дата заезда:</label>
+          <input type="text" id="Check-in date" value="24 апреля 2017">
+          <img src="img/calendar.svg" class="calendar" width="21" height="22">
+        </div>
+        <div class="answer-2">
+          <label for="Departure date">Дата выезда:</label>
+          <input id="Departure date" type="text" value="4 июля 2017">
+          <img src="img/calendar.svg" class="calendar" height="22" width="21">
+        </div>
+        <div class="double-container">
+          <div class="answer3">
+            <label>Взрослые:</label>
+            <span class="minus-container">
+              <span class="minus"></span>
+            </span>
+            <---! здесь будет форма --->
+            <span class="plus-container">
+              <span class="plus"></span>
+            </span>
+          </div>
+          <div class="answer3">
+            <label>Дети:</label>
+            <span class="minus-container">
+              <span class="minus"></span>
+            </span>
+            <---! здесь будет форма --->
+            <span class="plus-container">
+              <span class="plus"></span>
+            </span>
+          </div>
+        </div>
+        <a class="find" href="#">найти</a>
+      </div>
     </div>
   </footer>
   </body>
