@@ -26,8 +26,44 @@
       <p>рассмотрим 5 причин, по которым седона круче, чем град каньон!</p>
     </section>
     <section class="interest">
-      <h2 class="interest-main-word">заинтересовались?</h2>
+      <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+      <p class="interest-main-word">заинтересовались?</p>
       <p class="data-hotel">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинниц в седоне</p>
+      <a class="search" href="#">Поиск гостиницы в Седоне</a>
+      <section class="form-container">
+          <div class="check-in-date-container">
+            <label for="check-in-date">дата заезда:</label>
+            <input type="date" id="check-in-date" placeholder="24 апреля 2017">
+          </div>
+          <div class="departure-date-container">
+            <label for="departure-date">Дата выезда:</label>
+            <input id="departure-date" type="date" placeholder="4 июля 2017">
+          </div>
+          <div class="double-container">
+            <div class="number-of-adults">
+              <p class="people">Взрослые:</p>
+              <button class="minus-container" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
+                <span class="minus">-</span>
+              </button>
+              <!--работа счетчика будет в дальнейшем реализована на js-->
+              <span class="counter" data-number="2">2</span>
+              <button class="plus-container" type="button" aria-label="выбрать большее количество взрослых во время поездки">
+                <span class="plus">+</span>
+              </button>
+            </div>
+            <div class="number-of-children">
+              <p class="people">Дети:</p>
+              <button class="minus-container" type="button" aria-label="выбрать меньшее количество детей во время поездки">
+                <span class="minus">-</span>
+              </button>
+              <!--работа счетчика будет в дальнейшем реализована на js-->
+              <span class="counter" data-number="2">2</span>
+              <button class="plus-container" type="button" aria-label="выбрать большее количество детей во время поездки">
+                <span class="plus">+</span>
+              </button>
+            </div>
+          </div>
+          <input class="find" type="submit" value="найти">
     </section>
   </main>
   <footer>
@@ -44,48 +80,8 @@
     <div class="footer-copyright-container">
       <p class="footer-copyright">
         <b>website by</b><br>
-        <a class="htmla" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmla.svg" class="logo-htmla" width="115" height="41" alt="html academy"></a>
+        <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmla.svg" class="logo-html-academy" width="115" height="41" alt="html academy"></a>
       </p>
-    </div>
-    <div class="form-container">
-      <div class="form-header">
-        <h3 class="form-name">поиск гостиницы в седоне</h3>
-      </div>
-      <div class="form">
-        <div class="answer-1">
-          <label for="Check-in-date">дата заезда:</label>
-          <input type="text" id="Check-in-date" placeholder="24 апреля 2017" aria-label="выберете дату заезда">
-          <img src="img/calendar.svg" class="calendar" width="21" height="22" alt="календарь" tabindex="0" aria-label="календарь сроков поездки">
-        </div>
-        <div class="answer-2">
-          <label for="Departure-date">Дата выезда:</label>
-          <input id="Departure-date" type="text" placeholder="4 июля 2017" aria-label="выберете дату выезда">
-          <img src="img/calendar.svg" class="calendar" height="22" width="21" alt="календарь" tabindex="0" aria-label="календарь сроков поездки">
-        </div>
-        <div class="double-container">
-          <div class="answer3">
-            <label>Взрослые:</label>
-            <button class="minus-container" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
-              <span class="minus"></span>
-            </button>
-            <span class="counter">2</span>
-            <button class="plus-container" type="button" aria-label="выбрать большее количество взрослых во время поездки">
-              <span class="plus"></span>
-            </button>
-          </div>
-          <div class="answer3">
-            <label>Дети:</label>
-            <button class="minus-container" type="button" aria-label="выбрать меньшее количество детей во время поездки">
-              <span class="minus"></span>
-            </button>
-            <span class="counter"></span>
-            <button class="plus-container" type="button" aria-label="выбрать большее количество детей во время поездки">
-              <span class="plus"></span>
-            </button>
-          </div>
-        </div>
-        <button class="find" type="submit" aria-label="найти лучшие варианты гостинниц">найти</button>
-      </div>
     </div>
   </footer>
   </body>
