@@ -28,48 +28,52 @@
         <p>рассмотрим 5 причин, по которым седона круче, чем град каньон!</p>
       </div>
       <ul>
-        <li class="town">
+        <li class="town-item">
           <h3>Настоящий<br>городок</h3>
           <p class="number-white">— №1 —</p>
           <p class="sedona-live">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </li>
-        <li class="town-picture">
+        <li class="town-picture-item">
           <img src="img/feature-picture.jpg" class="feature-img" alt="снимок седоны">
         </li>
-        <li class="home">
-          <img src="img/icon-1.svg" class="icon-1" alt="отличное жилье">
-          <h4 class="home-headline">Жильё</h4>
-          <p class="home-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        <li class="features-item">
+          <ul class="town-features-list">
+            <li class="features-list-home-item">
+              <img src="img/icon-1.svg" class="icon-1" alt="отличное жилье">
+              <h4 class="home-headline">Жильё</h4>
+              <p class="home-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="features-list-food-item">
+              <img src="img/icon-3.svg" class="icon-3" alt="фирменные бургеры">
+              <h4 class="food-headline">Еда</h4>
+              <p class="food-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="features-list-souvenirs-item">
+              <img src="img/icon-2.svg" class="icon-2" alt="сувениры местного производства">
+              <h4 class="souvenirs-headline">Сувениры</h4>
+              <p class="souvenirs-description">Не только китайского, но и местного производства!</p>
+            </li>
+        </ul>
         </li>
-        <li class="food">
-          <img src="img/icon-3.svg" class="icon-3" alt="фирменные бургеры">
-          <h4 class="food-headline">Еда</h4>
-          <p class="food-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="souvenirs">
-          <img src="img/icon-2.svg" class="icon-2" alt="сувениры местного производства">
-          <h4 class="souvenirs-headline">Сувениры</h4>
-          <p class="souvenirs-description">Не только китайского, но и местного производства!</p>
-        </li>
-        <li class="devil-bridge-picture">
+        <li class="devil-bridge-picture-item">
           <img src="img/layer-5.jpg" class="devil-bridge-jpg" alt="мост дьявола">
         </li>
-        <li class="devil-bridge">
+        <li class="devil-bridge-item">
           <h3 class="devil-bridge-headline"><b>Там есть<br>Мост дьявола</b></h3>
           <p class="number-white">— №1 —</p>
           <p class="devil-bridge-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </li>
-        <li class="square">
+        <li class="square-item">
           <h4 class="square-headline">Небольшая<br>площадь</h4>
           <p class="number">— №3 —</p>
           <p class="square-description">Все достопримечательности находятся очень близко</p>
         </li>
-        <li class="road">
+        <li class="road-item">
           <h4 class="road-headline">Красивая<br>дорога</h4>
           <p class="number">— №4 —</p>
           <p class="road-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
-        <li class="tourist">
+        <li class="tourist-item">
           <h4 class="tourist-headline">Мало<br>туристов</h4>
           <p class="number">— №5 —</p>
           <p class="tourist-description">Большинство едет в гранд каньон и толпится там</p>
@@ -81,7 +85,7 @@
       <p class="interest-main-word">заинтересовались?</p>
       <p class="data-hotel">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинниц в седоне</p>
       <a class="search" href="#">Поиск гостиницы в Седоне</a>
-      <section class="form-container">
+      <form class="form-container">
           <div class="check-in-date-container">
             <label for="check-in-date">дата заезда:</label>
             <input type="date" id="check-in-date">
@@ -115,9 +119,10 @@
             </div>
           </div>
           <input class="find" type="submit" value="найти">
-      </section>
+      </form>
       <section class="map-container">
-        <img src="img/map.jpg">
+        <h3 class="visually-hidden">адрес седонны на карте</h3>
+        <img src="img/map.jpg" alt="Sedona Arizona 86336 USA">
         <!--работа карты будет в дальнейшем реализована на js-->
       </section>
     </section>
