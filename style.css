@@ -197,4 +197,57 @@ footer {
   text-decoration: none;
 }
 
+.nav-content:hover,
+.nav-content:focus,
+.name:hover,
+.name:focus {
+  color: #81b3d2;
+}
 
+.nav-content:active,
+.name:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-content .active {
+  color: #766357;
+}
+
+.info:hover,
+.info:focus {
+  background-color: #669ec0;
+}
+
+.info:active {
+  background-color: #5496bd;
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.hotel-1-page:hover,
+.hotel-1-page:focus {
+  background-color: #604e43;
+}
+
+.hotel-1-page:active {
+  background-color: #503e33;
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
+}
+
+.social-button:active {
+  background-color: #5496bd;
+  opacity: 0.3;
+}
+
+.logo-htmla:hover,
+.logo-htmla:focus {
+  background-color: #81b3d2;
+}
+
+.logo-htmla:active {
+  background-color: #bdbbbc;
+}
