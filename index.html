@@ -8,11 +8,11 @@
   <header>
       <nav class="main-nav">
         <ul class="nav">
-          <li><a href="#" class="nav-content">информация</a></li>
-          <li><a href="#" class="nav-content">фото и видео</a></li>
+          <li><a href="#" class="nav-link">информация</a></li>
+          <li><a href="#" class="nav-link">фото и видео</a></li>
           <li><a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a></li>
-          <li><a href="#" class="nav-content">карта штата</a></li>
-          <li><a href="#" class="nav-content">гостинницы</a></li>
+          <li><a href="#" class="nav-link">карта штата</a></li>
+          <li><a href="#" class="nav-link">гостинницы</a></li>
         </ul>
       </nav>
   </header>
@@ -27,53 +27,50 @@
         <h2>седона-небольшой городок в аризоне,<br> заслуживающий большего!</h2>
         <p>рассмотрим 5 причин, по которым седона круче, чем град каньон!</p>
       </div>
-      <ul>
-        <li class="town-item">
-          <h3>Настоящий<br>городок</h3>
+      <ul class="list-features">
+        <li class="features-list-town-item">
+          <h3 class="real-town-header">Настоящий<br>городок</h3>
           <p class="number-white">— №1 —</p>
           <p class="sedona-live">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        </li>
-        <li class="town-picture-item">
           <img src="img/feature-picture.jpg" class="feature-img" alt="снимок седоны">
-        </li>
         <li class="features-item">
-          <ul class="town-features-list">
-            <li class="features-list-home-item">
+          <ul class="other-features-list--town">
+            <li class="other-features-list-item--home">
               <img src="img/icon-1.svg" class="icon-1" alt="отличное жилье">
               <h4 class="home-headline">Жильё</h4>
               <p class="home-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </li>
-            <li class="features-list-food-item">
+            <li class="other-features-list-item--food">
               <img src="img/icon-3.svg" class="icon-3" alt="фирменные бургеры">
               <h4 class="food-headline">Еда</h4>
               <p class="food-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </li>
-            <li class="features-list-souvenirs-item">
+            <li class="other-features-list-item--souvenirs">
               <img src="img/icon-2.svg" class="icon-2" alt="сувениры местного производства">
               <h4 class="souvenirs-headline">Сувениры</h4>
               <p class="souvenirs-description">Не только китайского, но и местного производства!</p>
             </li>
-        </ul>
+          </ul>
         </li>
-        <li class="devil-bridge-picture-item">
+        <li class="list-features-item--devil-bridge-picture">
           <img src="img/layer-5.jpg" class="devil-bridge-jpg" alt="мост дьявола">
         </li>
-        <li class="devil-bridge-item">
+        <li class="list-features-item--devil-bridge">
           <h3 class="devil-bridge-headline"><b>Там есть<br>Мост дьявола</b></h3>
           <p class="number-white">— №1 —</p>
           <p class="devil-bridge-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </li>
-        <li class="square-item">
+        <li class="list-features-item--square">
           <h4 class="square-headline">Небольшая<br>площадь</h4>
           <p class="number">— №3 —</p>
           <p class="square-description">Все достопримечательности находятся очень близко</p>
         </li>
-        <li class="road-item">
+        <li class="list-features-item--road">
           <h4 class="road-headline">Красивая<br>дорога</h4>
           <p class="number">— №4 —</p>
           <p class="road-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </li>
-        <li class="tourist-item">
+        <li class="list-features-item--tourist">
           <h4 class="tourist-headline">Мало<br>туристов</h4>
           <p class="number">— №5 —</p>
           <p class="tourist-description">Большинство едет в гранд каньон и толпится там</p>
@@ -120,11 +117,11 @@
           </div>
           <input class="find" type="submit" value="найти">
       </form>
-      <section class="map-container">
+      <div class="map-container">
         <h3 class="visually-hidden">адрес седонны на карте</h3>
         <img src="img/map.jpg" alt="Sedona Arizona 86336 USA">
         <!--работа карты будет в дальнейшем реализована на js-->
-      </section>
+      </div>
     </section>
   </main>
   <footer>
