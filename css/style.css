@@ -1,5 +1,12 @@
 body {
   font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .nav,
@@ -7,8 +14,7 @@ body {
 .other-features-list--town,
 .social-buttons-list,
 .hotels-list,
-.html-academy,
-.search {
+.html-academy {
   list-style:none;
 }
 
@@ -17,11 +23,11 @@ body {
 .hotel-page,
 .social-button,
 .button,
-.search {
+.find-your-hotel {
   text-decoration: none;
 }
 
-.nav-content {
+.nav-link {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.86;
@@ -65,14 +71,14 @@ body {
   background-color: #ffffff;
 }
 
-.data-hotel {
+.interest-data {
   font-size: 14px;
   line-height: 1.71;
   text-align: center;
   color: #333333;
 }
 
-.search {
+.find-your-hotel {
   background-color: #766357;
   font-size: 21px;
   font-weight: bold;
@@ -175,7 +181,7 @@ body {
   display: block;
 }
 
-.hotel-1-page {
+.hotel-page {
   width: 142px;
   height: 27px;
   background-color: #766357;
@@ -202,13 +208,13 @@ body {
 
 .nav-link:hover,
 .nav-link:focus,
-.name:hover,
-.name:focus {
+.hotel-name:hover,
+.hotel-name:focus {
   color: #81b3d2;
 }
 
 .nav-link:active,
-.name:active {
+.hotel-name:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -226,12 +232,12 @@ body {
   color:rgba(255, 255, 255, 0.3);
 }
 
-.hotel-1-page:hover,
-.hotel-1-page:focus {
+.hotel-page:hover,
+.hotel-page:focus {
   background-color: #604e43;
 }
 
-.hotel-1-page:active {
+.hotel-page:active {
   background-color: #503e33;
   color:rgba(255, 255, 255, 0.3);
 }
@@ -253,4 +259,8 @@ body {
 
 .logo-htmla:active {
   background-color: #bdbbbc;
+}
+
+.vertical-content {
+  vertical-align: center;
 }
