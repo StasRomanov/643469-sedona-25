@@ -18,12 +18,7 @@ body {
   list-style:none;
 }
 
-.nav-link,
-.info,
-.hotel-page,
-.social-button,
-.button,
-.find-your-hotel {
+a {
   text-decoration: none;
 }
 
@@ -73,12 +68,13 @@ body {
 
 .interest-data {
   font-size: 14px;
-  line-height: 1.71;
   text-align: center;
   color: #333333;
+  line-height: 21px;
+  font-weight: 400;
 }
 
-.find-your-hotel {
+.interest-find-hotel {
   background-color: #766357;
   font-size: 21px;
   font-weight: bold;
@@ -218,7 +214,7 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.active {
+.nav-active {
   color: #766357;
 }
 
@@ -262,5 +258,61 @@ body {
 }
 
 .vertical-content {
-  vertical-align: center;
+  text-align: center;
+}
+
+.all-content-container {
+  width: 1200px;
+}
+
+.welcome-container {
+  background-color: #e3f0f8;
+  min-height: 726px;
+  background-image: url("../img/polygon.png"), url("../img/background-photo.jpg");
+  background-size: auto, cover;
+  background-repeat: no-repeat,no-repeat;
+  background-position: bottom, bottom;
+}
+
+.form-word {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.86;
+  color: #000000;
+}
+
+.button {
+  color: #a9a9a9;
+  background-color: #f2f2f2;
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  color: #000000;
+}
+ .button:active {
+   color: #81b3d2;
+ }
+
+.find-hotel {
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+  color: #ffffff;
+ }
+
+.find-hotel:hover,
+.find-hotel:focus {
+  background-color: #669ec0;
+}
+
+.find-hotel:active {
+  background-color: #5496bd;
 }
