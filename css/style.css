@@ -135,9 +135,7 @@ a {
   background-color: #81b3d2;
 }
 
-.square,
-.road,
-.tourist {
+.features-list-item--gray {
   background-color: #eeeeee;
 }
 
@@ -316,12 +314,12 @@ a {
   color: #766357;
 }
 
-.info:hover,
-.info:focus {
+.info-link:hover,
+.info-link:focus {
   background-color: #669ec0;
 }
 
-.info:active {
+.info-link:active {
   background-color: #5496bd;
   color:rgba(255, 255, 255, 0.3);
 }
