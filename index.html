@@ -9,7 +9,7 @@
   </head>
   <body class="body-index">
   <div class="all-content-container">
-    <header class="main-header vertical-content">
+    <header class="main-header horizontal-content">
       <nav class="main-nav">
         <a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a>
         <ul class="nav">
@@ -20,11 +20,10 @@
         </ul>
       </nav>
     </header>
-    <main class="main-content vertical-content">
+    <main class="main-content horizontal-content">
       <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
       <div class="welcome-container">
         <img src="img/welcome.png" class="welcome" alt="Welcome to the gorgeous Sedona!"  height="353" width="459">
-        <h2 class="visually-hidden">седона-небольшой городок в аризоне, заслуживающий большего!</h2>
         <div class="description">
           <h2>седона-небольшой городок в аризоне,<br> заслуживающий большего!</h2>
           <p>рассмотрим 5 причин, по которым седона круче, чем град каньон!</p>
@@ -37,45 +36,46 @@
               <p class="number-white">— №1 —</p>
               <p class="sedona-live">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               <img src="img/feature-picture.jpg" class="feature-img" alt="снимок седоны">
-            <li class="features-list-item">
-              <ul class="other-features-list--town">
-                <li class="other-features-item--home other-features">
+            </li>
+            <li class="features-list-other-item">
+              <ul class="features-sublist">
+                <li class="features-sublist-item">
                   <img src="img/icon-1.svg" class="icon-1" alt="отличное жилье">
                   <h4 class="home-headline item-headline">Жильё</h4>
                   <p class="home-description item-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 </li>
-                <li class="other-features-item--food other-features">
+                <li class="features-sublist-item">
                   <img src="img/icon-3.svg" class="icon-3" alt="фирменные бургеры">
                   <h4 class="food-headline item-headline">Еда</h4>
                   <p class="food-description item-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                 </li>
-                <li class="other-features-item--souvenirs other-features">
+                <li class="features-sublist-item">
                   <img src="img/icon-2.svg" class="icon-2" alt="сувениры местного производства">
                   <h4 class="souvenirs-headline item-headline">Сувениры</h4>
                   <p class="souvenirs-description item-description">Не только китайского, но и местного производства!</p>
                 </li>
               </ul>
             </li>
-            <li class="list-features-item devil-bridge-picture">
+            <li class="features-list-item devil-bridge-picture">
               <img src="img/layer-5.jpg" class="devil-bridge-jpg" alt="мост дьявола">
             </li>
-            <li class="list-features-item devil-bridge">
-              <h3 class="devil-bridge-headline"><b>Там есть<br>Мост дьявола</b></h3>
-              <p class="number">— №1 —</p>
+            <li class="features-list-item devil-bridge">
+              <h3 class="devil-bridge-headline"><b>Там есть <br>Мост дьявола</b></h3>
+              <p class="number">— №2 —</p>
               <p class="devil-bridge-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             </li>
-            <li class="list-features-item square">
-              <h4 class="square-headline">Небольшая<br>площадь</h4>
+            <li class="features-list-item square">
+              <h4 class="square-headline">Небольшая <br>площадь</h4>
               <p class="number">— №3 —</p>
               <p class="square description">Все достопримечательности находятся очень близко</p>
             </li>
-            <li class="list-features-item road">
-              <h4 class="road-headline">Красивая<br>дорога</h4>
+            <li class="features-list-item road">
+              <h4 class="road-headline">Красивая <br>дорога</h4>
               <p class="number">— №4 —</p>
               <p class="road description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
-            <li class="list-features-item tourist">
-              <h4 class="tourist-headline">Мало<br>туристов</h4>
+            <li class="features-list-item tourist">
+              <h4 class="tourist-headline">Мало <br>туристов</h4>
               <p class="number">— №5 —</p>
               <p class="tourist description">Большинство едет в гранд каньон и толпится там</p>
             </li>
@@ -88,16 +88,16 @@
         <a class="interest-find-hotel" href="#">Поиск гостиницы в Седоне</a>
         <form class="form-container">
             <div class="check-in-date-container">
-              <label for="check-in-date" class="form-word vertical-content">дата заезда:</label>
+              <label for="check-in-date" class="form-word horizontal-content">дата заезда:</label>
               <input type="date" id="check-in-date" value="2017-04-24">
             </div>
             <div class="departure-date-container">
-              <label for="departure-date" class="form-word vertical-content">Дата выезда:</label>
+              <label for="departure-date" class="form-word horizontal-content">Дата выезда:</label>
               <input id="departure-date" type="date" value="2017-06-04">
             </div>
             <div class="double-container">
               <div class="number-of-adults">
-                <p class="people form-word vertical-content">Взрослые:</p>
+                <p class="people form-word horizontal-content">Взрослые:</p>
                 <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
                   <span class="minus">-</span>
                 </button>
@@ -121,11 +121,11 @@
             </div>
           <button class="find-hotel" value="найти">найти</button>
         </form>
-        <div class="map-container">
-          <h3 class="visually-hidden">адрес седонны на карте</h3>
+        <section class="map-container">
+          <h2 class="visually-hidden">Адрес седонны на карте США</h2>
           <img src="img/map.jpg" alt="Sedona Arizona 86336 USA"  width="1200" height="470">
           <!--работа карты будет в дальнейшем реализована на js-->
-        </div>
+        </section>
       </section>
     </main>
     <footer class="main-footer">
@@ -134,17 +134,21 @@
       </div>
       <div class="social-buttons-container">
         <ul class="social-buttons-list">
-          <li><a class="social-button" href="#"><img src="img/tw-icon.svg" class="tw-icon" alt="twitter" width="14" height="12"></a></li>
-          <li><a class="social-button" href="#"><img src="img/fb-icon.svg" class="fb-icon" alt="Facebook" width="10" height="9"></a></li>
-          <li><a class="social-button" href="#"><img src="img/youtube-icon.svg" class="youtube-icon" alt="youtube" height="13" width="12"></a></li>
+          <li><a class="social-button" href="#">
+            <img src="img/tw-icon.svg" class="tw-icon" alt="twitter" width="14" height="12">
+          </a></li>
+          <li><a class="social-button" href="#">
+            <img src="img/fb-icon.svg" class="fb-icon" alt="Facebook" width="10" height="9">
+          </a></li>
+          <li><a class="social-button" href="#">
+            <img src="img/youtube-icon.svg" class="youtube-icon" alt="youtube" height="13" width="12">
+          </a></li>
         </ul>
       </div>
       <div class="footer-copyright-container">
         <p class="footer-copyright">
           <b>website by</b><br>
-          <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss">
-            <img src="img/logo-htmla.svg" class="logo-html-academy" width="16" height="16" alt="html academy">
-          </a>
+          <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="html academy"></a>
         </p>
       </div>
     </footer>

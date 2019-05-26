@@ -5,22 +5,23 @@
     <title>HTML Academy: Седона</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body class="body-catalog">
-<header>
+<header class="main-header horizontal-content">
   <nav class="main-nav">
+    <a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a>
     <ul class="nav">
       <li><a href="#" class="nav-link">информация</a></li>
       <li><a href="#" class="nav-link">фото и видео</a></li>
-      <li><a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a></li>
       <li><a href="#" class="nav-link">карта штата</a></li>
-      <li><a href="#" class="nav-link active">гостинницы</a></li>
+      <li><a href="#" class="nav-link">гостинницы</a></li>
     </ul>
   </nav>
 </header>
 <main class="main-content">
   <h1 class="visually-hidden">Отели и не только в седоне!</h1>
-  <section>
+  <section class="hotel-list-container">
     <h2 class="visually-hidden">Список отелей в Седоне</h2>
     <ul class="hotels">
       <li class="hotel-item">
@@ -30,7 +31,7 @@
           <p class="hotel-type">гостинница</p>
           <p class="hotel-cost">от 4000 р.</p>
           <div class="buttons">
-            <a href="#" class="info">подробнее</a>
+            <a href="#" class="info-link">подробнее</a>
             <a href="#" class="hotel-page">забронировать</a>
           </div>
         </div>
@@ -51,7 +52,7 @@
           <p class="hotel-type">мотель</p>
           <p class="hotel-cost">от 3000 р.</p>
           <div class="buttons">
-            <a href="#" class="info">подробнее</a>
+            <a href="#" class="info-link">подробнее</a>
             <a href="#" class="hotel-page">забронировать</a>
           </div>
         </div>
@@ -69,9 +70,9 @@
         <div class="hotel-info">
           <h3 class="hotel-name">villas at poco diablo</h3>
           <p class="hotel-type">апартаменты</p>
-          <p class="hotel-type">от 2000 р.</p>
+          <p class="hotel-cost">от 2000 р.</p>
           <div class="buttons">
-            <a href="#" class="info">подробнее</a>
+            <a href="#" class="info-link">подробнее</a>
             <a href="#" class="hotel-page">забронировать</a>
           </div>
         </div>
@@ -92,17 +93,21 @@
   </div>
   <div class="social-buttons-container">
     <ul class="social-buttons-list">
-      <li><a class="social-button" href="#"><img src="img/tw-icon.svg" class="tw-icon" alt="twitter" aria-label="мы в twitter"></a></li>
-      <li><a class="social-button" href="#"><img src="img/fb-icon.svg" class="fb-icon" alt="facebook" aria-label="мы в facebook"></a></li>
-      <li><a class="social-button" href="#"><img src="img/youtube-icon.svg" class="youtube-icon" alt="youtube" aria-label="мы в youtube"></a></li>
+      <li><a class="social-button" href="#">
+        <img src="img/tw-icon.svg" class="tw-icon" alt="twitter" width="14" height="12">
+      </a></li>
+      <li><a class="social-button" href="#">
+        <img src="img/fb-icon.svg" class="fb-icon" alt="Facebook" width="10" height="9">
+      </a></li>
+      <li><a class="social-button" href="#">
+        <img src="img/youtube-icon.svg" class="youtube-icon" alt="youtube" height="13" width="12">
+      </a></li>
     </ul>
   </div>
   <div class="footer-copyright-container">
     <p class="footer-copyright">
       <b>website by</b><br>
-      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="прейти на страницу интенсива по html & css в html academy">
-        <img src="img/logo-htmla.svg" class="logo-htmla" width="115" height="41" alt="html academy">
-      </a>
+      <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="html academy"></a>
     </p>
   </div>
 </footer>
