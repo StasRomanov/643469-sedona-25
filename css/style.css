@@ -247,7 +247,6 @@ a {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
-  display: block;
 }
 /* стилизация (базовая) второй страницы */
 
@@ -280,7 +279,6 @@ a {
   line-height: 1.5;
   text-align: left;
   color: #ffffff;
-  display: block;
 }
 
 .hotel-page {
@@ -290,7 +288,6 @@ a {
   line-height: 1.5;
   text-align: left;
   color: #ffffff;
-  display: block;
 
 }
 
@@ -300,7 +297,6 @@ a {
   line-height: 1.5;
   text-align: center;
   color: #666666;
-  display: block;
 
 }
 
