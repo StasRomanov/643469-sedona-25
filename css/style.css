@@ -14,7 +14,8 @@ body {
 .other-features-list--town,
 .social-buttons-list,
 .hotels-list,
-.html-academy {
+.html-academy,
+.hotels {
   list-style:none;
 }
 
@@ -306,6 +307,7 @@ a {
   height: 58px;
   background-color: #81b3d2;
   color: #ffffff;
+  font-size: 21px;
  }
 
 .find-hotel:hover,
