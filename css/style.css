@@ -246,6 +246,37 @@ a {
   height: 48px;
   background-color: #81b3d2;
 }
+
+.item-description,
+.number,
+.description {
+  color: #333333;
+  font-size: 14px;
+}
+
+.features-list-item:first-child {
+  color: white;
+  font-size: 14px;
+}
+
+.real-town-header{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.devil-bridge {
+  color: white;
+  font-size: 14px;
+}
+
+.devil-bridge-headline {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.devil-bridge > .number {
+  color: white;
+}
 /* стилизация (базовая) второй страницы */
 
 .hotel-name {
