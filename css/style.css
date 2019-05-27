@@ -9,6 +9,14 @@ body {
   padding: 0;
 }
 
+.all-content-container {
+  width: 1200px;
+}
+
+.horizontal-content {
+  text-align: center;
+}
+
 .nav,
 .features-list-item,
 .features-sublist-item,
@@ -54,6 +62,30 @@ a {
   line-height: 1.86;
   text-align: center;
   color: #333333;
+  background-color: #ffffff;
+}
+
+.item-description,
+.number,
+.description {
+  color: #333333;
+  font-size: 14px;
+}
+
+.features-list-item{
+  background-color: #81b3d2;
+  font-size: 14px;
+}
+
+.features-list-item--gray {
+  background-color: #eeeeee;
+}
+
+.features-list-item--big {
+  color: white;
+}
+
+.features-list-other-item{
   background-color: #ffffff;
 }
 
@@ -125,25 +157,6 @@ a {
   color: #000000;
 }
 
-.footer-container {
-  width: 1200px;
-  height: 120px;
-  opacity: 0.9;
-}
-
-.features-list-item{
-  background-color: #81b3d2;
-  font-size: 14px;
-}
-
-.features-list-item--gray {
-  background-color: #eeeeee;
-}
-
-.features-list-item--big {
-  color: white;
-}
-
 .social-button:hover,
 .social-button:focus {
   background-color: #669ec0;
@@ -161,14 +174,6 @@ a {
 
 .logo-htmla:active {
   background-color: #bdbbbc;
-}
-
-.horizontal-content {
-  text-align: center;
-}
-
-.all-content-container {
-  width: 1200px;
 }
 
 .welcome-container {
@@ -199,14 +204,6 @@ a {
   border: none;
 }
 
-.button:hover,
-.button:focus {
-  color: #000000;
-}
-.button:active {
-  color: #81b3d2;
-}
-
 .find-hotel {
   width: 458px;
   height: 58px;
@@ -215,10 +212,10 @@ a {
   font-size: 21px;
 }
 
-.find-hotel:hover,
-.find-hotel:focus {
-  background-color: #669ec0;
-  color: #ffffff;
+.social-buttons-list li {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
 }
 
 .html-academy{
@@ -227,6 +224,22 @@ a {
   display: block;
   background-image: url("../img/logo-htmla.svg");
   background-repeat: no-repeat;
+}
+
+/*style guide page 1*/
+
+.button:hover,
+.button:focus {
+  color: #000000;
+}
+.button:active {
+  color: #81b3d2;
+}
+
+.find-hotel:hover,
+.find-hotel:focus {
+  background-color: #669ec0;
+  color: #ffffff;
 }
 
 .find-hotel:active {
@@ -244,19 +257,6 @@ a {
 .html-academy:active {
   background-image: url("../img/logo-htmla-active.svg");
   background-repeat: no-repeat;
-}
-
-.social-buttons-list li {
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
-}
-
-.item-description,
-.number,
-.description {
-  color: #333333;
-  font-size: 14px;
 }
 
 /* стилизация (базовая) второй страницы */
@@ -310,6 +310,8 @@ a {
   color: #666666;
 
 }
+
+/*style guide page 2*/
 
 .nav-link:hover,
 .nav-link:focus,
