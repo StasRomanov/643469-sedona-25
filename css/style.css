@@ -133,10 +133,15 @@ a {
 
 .features-list-item{
   background-color: #81b3d2;
+  font-size: 14px;
 }
 
 .features-list-item--gray {
   background-color: #eeeeee;
+}
+
+.features-list-item--big {
+  color: white;
 }
 
 .social-button:hover,
@@ -251,14 +256,6 @@ a {
 .number,
 .description {
   color: #333333;
-  font-size: 14px;
-}
-
-.features-list-item--big {
-  color: white;
-}
-
-.features-header {
   font-size: 14px;
 }
 
