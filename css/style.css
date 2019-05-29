@@ -1,3 +1,15 @@
+body > * > * {
+  background-color: rgba(225,0,0,0.3);
+}
+
+body > * > * > * {
+  background-color: rgba(225, 203, 52, 0.3);
+}
+
+body > * > * > * > * {
+  background-color: rgba(48, 225, 44, 0.3);
+}
+
 body {
   font-family: 'PT Sans','Arial', sans-serif;
   font-size: 14px;
@@ -10,7 +22,8 @@ body {
 }
 
 .all-content-container {
-  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .horizontal-content {
@@ -35,9 +48,6 @@ a {
   font-weight: bold;
   line-height: 1.86;
   color: #000000;
-  width: 93px;
-  height: 12px;
-  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -179,7 +189,9 @@ a {
 .welcome-container {
   background-color: #e3f0f8;
   min-height: 726px;
-  background-image: url("../img/polygon.png"), url("../img/background-photo.jpg");
+  background-image:
+    url("../img/polygon.png"),
+    url("../img/background-photo.jpg");
   background-size: auto, cover;
   background-repeat: no-repeat,no-repeat;
   background-position: bottom, bottom;
@@ -308,7 +320,6 @@ a {
   line-height: 1.5;
   text-align: center;
   color: #666666;
-
 }
 
 /*style guide page 2*/
@@ -348,3 +359,40 @@ a {
   background-color: #503e33;
   color:rgba(255, 255, 255, 0.3);
 }
+
+.main-header {
+  display: flex;
+}
+
+.nav-picture {
+  width: 140px;
+  height: 71px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  min-height: 56px;
+  min-width: 100px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.nav-link {
+  display: block;
+  text-align: center;
+  min-height: 56px;
+  min-width: 239px;
+  background-color: #ffffff;
+}
+
+
