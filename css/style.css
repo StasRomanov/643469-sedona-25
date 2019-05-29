@@ -133,9 +133,7 @@ a {
   justify-content: center;
 }
 
-.footer-copyright b{
-  width: 74px;
-  height: 11px;
+.footer-copyright p{
   font-size: 14px;
   line-height: 1.86;
   text-align: center;
@@ -575,17 +573,17 @@ form {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom;
-  margin-bottom: -24px;
 }
 
 .main-footer {
   display: flex;
   width: 1200px;
-  min-height: 40px;
+  min-height: 120px;
   opacity: 0.9;
   align-items: center;
   justify-content: space-around;
   background-color: #ffffff;
+  margin-top: -45px;
 }
 
 .visit-container {
@@ -617,4 +615,24 @@ form {
 .social-buttons-list li:hover,
 .social-buttons-list li:focus {
   background-color: #669ec0;
+}
+
+.footer-copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-copyright p {
+  margin-right: 8px;
+}
+
+.interest-find-hotel:hover,
+.interest-find-hotel:focus {
+  background-color: #604e43;
+}
+
+.interest-find-hotel:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
 }
