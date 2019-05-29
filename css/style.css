@@ -12,6 +12,8 @@ body {
 .all-content-container {
   width: 1200px;
   margin: 0 auto;
+  height: 2762px;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .horizontal-content {
@@ -105,8 +107,12 @@ a {
   font-size: 14px;
   text-align: center;
   color: #333333;
-  line-height: 21px;
-  font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  margin-bottom: 52px;
 }
 
 .interest-find-hotel {
@@ -118,37 +124,13 @@ a {
   color: #ffffff;
 }
 
-.visit {
-  width: 136px;
-  height: 16px;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1.24;
-  text-align: center;
-  color: #000000;
-}
-
 .social-button {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
-  display: block;
-}
-
-.tw-icon {
-  width: 17px;
-  height: 15px;
-  color: #ffffff;
-}
-
-.fb-icon {
-  width: 12px;
-  height: 22px;
-}
-
-.youtube-icon {
-  width: 20px;
-  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-copyright b{
@@ -230,6 +212,10 @@ a {
   display: block;
   background-image: url("../img/logo-htmla.svg");
   background-repeat: no-repeat;
+}
+
+form {
+  display: none;
 }
 
 /*style guide page 1*/
@@ -497,4 +483,138 @@ a {
 .tourist {
   grid-column-start: 3;
   grid-row-start: 4;
+}
+
+.icon {
+  padding-top: 62px;
+}
+
+.item-description {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.item-headline {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.features-header {
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.number-white {
+  color:#ffffff;
+}
+
+.number,
+.features-text {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.number {
+  margin-bottom: 30px;
+}
+
+.item-headline {
+  margin-bottom: 30px;
+}
+
+.tourist-headline,
+.square-headline,
+.road-headline {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+}
+
+.interest {
+  min-height: 291px;
+  padding-top: 57px;
+}
+
+.interest-find-hotel {
+  display: block;
+  min-width: 568px;
+  min-height: 86px;
+  margin-left: 316px;
+  margin-right: 316px;
+  line-height: 86px;
+  margin-bottom: -11px;
+}
+
+.map-container {
+  width: 1200px;
+  height: 470px;
+  background-image: url("../img/map.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: -24px;
+}
+
+.main-footer {
+  display: flex;
+  width: 1200px;
+  min-height: 40px;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.visit-container {
+  min-width: 136px;
+  min-height: 16px;
+}
+
+.visit {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.social-buttons-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.social-buttons-list li {
+  margin: 6px;
+}
+
+.social-buttons-list li:hover,
+.social-buttons-list li:focus {
+  background-color: #669ec0;
 }
