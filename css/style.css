@@ -641,3 +641,131 @@ form {
   min-height: 56px;
   min-width: 244px;
 }
+
+.filter-hotel-container {
+  display: block;
+  min-height: 303px;
+  width: 100%;
+  background-color: rgba(248,130,48,0.67);
+}
+
+.hotel-list-container {
+  min-height: 453px;
+  width: 100%;
+}
+
+.hotels {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.hotel-item {
+  display: flex;
+  min-height: 151px;
+  justify-content: space-between;
+  border-bottom: 1px solid #cacaca;
+}
+
+.hotel-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hotel-picture-link {
+  display: block;
+  width: 135px;
+  height: 90px;
+  margin-left: 72px;
+  margin-right: 30px;
+}
+
+.hotel-name {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 17px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-link {
+  min-width: 110px;
+  min-height: 27px;
+  margin-right: 6px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.hotel-page {
+  min-width: 142px;
+  min-height: 27px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.hotel-type {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  margin-right: 39px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.hotel-cost {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 172px;
+}
+
+.rating {
+  display: flex;
+  margin-right: 73px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  min-width: 182px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.rating p {
+  min-width: 110px;
+  min-height: 27px;
+  margin: 0;
+  padding: 0;
+  line-height: 27px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+}
+
+.catalog-footer {
+  margin-top: 0;
+}
