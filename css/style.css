@@ -636,3 +636,8 @@ form {
   background-color: #503e33;
   color: rgba(255, 255, 255, 0.3);
 }
+
+.empty {
+  min-height: 56px;
+  min-width: 244px;
+}
