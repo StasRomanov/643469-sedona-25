@@ -68,6 +68,7 @@ a {
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.1px;
+  margin-bottom: 0;
 }
 
 .item-description,
@@ -101,7 +102,6 @@ a {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
-  margin-top: -12px;
   margin-bottom: 24px;
 }
 
@@ -163,11 +163,11 @@ a {
 
 .welcome-container {
   background-color: #e3f0f8;
-  min-height: 726px;
+  min-height: 509px;
   background-image:
-    url("../img/polygon.png"),
-    url("../img/background-photo.jpg");
-  background-size: auto, cover;
+    url(../img/polygon.png),
+    url(../img/background-photo.jpg);
+  background-size: 100%;
   background-repeat: no-repeat,no-repeat;
   background-position: 50% 451px, 50% -84px;
   padding-top: 76px;
@@ -385,7 +385,7 @@ form {
 }
 
 .welcome {
-  margin-bottom: 79px;
+  margin-bottom: 71px;
   width: 459px;
   height: 353px;
 }
@@ -398,12 +398,10 @@ form {
   padding-top: 61px;
   box-sizing: border-box;
   margin-bottom: 0;
-  margin-top: -8px;
 }
 
 .all-content-grid-container {
   width: 100%;
-  margin-top: -91px;
 }
 
 .features-list {
@@ -558,8 +556,8 @@ form {
 }
 
 .interest {
-  min-height: 291px;
-  padding-top: 62px;
+  min-height: 270px;
+  padding-top: 21px;
 }
 
 .interest-find-hotel {
@@ -569,7 +567,6 @@ form {
   margin-left: 316px;
   margin-right: 316px;
   line-height: 86px;
-  margin-bottom: -11px;
 }
 
 .map-container {
@@ -579,7 +576,6 @@ form {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom;
-  margin-top: -63px;
 }
 
 .main-footer {
