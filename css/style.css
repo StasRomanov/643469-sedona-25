@@ -692,12 +692,11 @@ form {
   height: 90px;
   margin-left: 72px;
   margin-right: 30px;
-  margin-top: 2px;
 }
 
 .hotel-name {
   padding: 0;
-  margin: -2px 0 6px 1px;
+  margin: -3px 0 6px 1px;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -706,6 +705,7 @@ form {
   letter-spacing: 0.1px;
   text-align: left;
   color: #000000;
+
 }
 
 .buttons {
@@ -821,4 +821,31 @@ form {
 
 .footer-copyright-container {
   padding-top: 6px;
+}
+
+.all-content2-container {
+  width: 1200px;
+  height: 933px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+.second-type {
+  margin-right: 65px;
+}
+
+.third-type {
+  margin-right: 22px;
+}
+
+.hotel-info-wrapper--3 {
+  padding-top: 28px;
+}
+
+.stars span {
+  margin-left: 3px;
+}
+
+.stars {
+  margin-right: -2px;
 }
