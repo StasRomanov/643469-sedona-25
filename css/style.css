@@ -173,13 +173,6 @@ a {
   padding-top: 76px;
 }
 
-.form-word {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.86;
-  color: #000000;
-}
-
 .button {
   color: #a9a9a9;
   background-color: #f2f2f2;
@@ -214,6 +207,104 @@ a {
   background-repeat: no-repeat;
 }
 
+.form-container {
+  width: 568px;
+  min-height: 395px;
+  background-color: #ffffff;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.check-in-date-container,
+.departure-date-container {
+  margin-top: 55px;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.departure-date-container {
+  margin-top: 27px;
+}
+
+.double-container {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.number-of-adults,
+.number-of-children {
+  display: flex;
+}
+
+.button {
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+}
+
+.form-word {
+  margin-left: 57px;
+  padding-top: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.check-in-date-form,
+.departure-date-form {
+  margin-right: 54px;
+  width: 346px;
+  height: 38px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.people {
+  padding: 0;
+  margin-top: 5px;
+  margin-left: 55px;
+}
+
+.count-wrapper {
+  margin-left: 40px;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: 38px 38px 38px;
+  grid-template-rows: 38px;
+  width: 76px;
+  height: 38px;
+}
+
+.counter {
+  line-height: 38px;
+}
+
+.children {
+  margin-left: 91px;
+}
+
+.find-hotel {
+  padding: 0;
+  margin: 46px auto;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
 /*style guide page 1*/
 
 .button:hover,
@@ -581,7 +672,7 @@ a {
   background-image: url("../img/map.jpg");
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 0 0;
 }
 
 .main-footer {
