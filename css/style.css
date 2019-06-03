@@ -214,10 +214,6 @@ a {
   background-repeat: no-repeat;
 }
 
-form {
-  display: none;
-}
-
 /*style guide page 1*/
 
 .button:hover,
@@ -373,6 +369,16 @@ form {
   min-height: 56px;
   min-width: 239px;
   align-items: stretch;
+}
+
+.nav li:first-child,
+.nav li:nth-child(2) {
+  text-align: left;
+}
+
+.nav li:nth-child(5),
+.nav li:last-child {
+  text-align: left;
 }
 
 .nav-link {

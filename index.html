@@ -89,44 +89,44 @@
         <p class="interest-main-word">заинтересовались?</p>
         <p class="interest-data">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <a class="interest-find-hotel" href="#">Поиск гостиницы в Седоне</a>
-        <form class="form-container">
-            <div class="check-in-date-container">
-              <label for="check-in-date" class="form-word horizontal-content">дата заезда:</label>
-              <input type="date" id="check-in-date" value="2017-04-24">
-            </div>
-            <div class="departure-date-container">
-              <label for="departure-date" class="form-word horizontal-content">Дата выезда:</label>
-              <input id="departure-date" type="date" value="2017-06-04">
-            </div>
-            <div class="double-container">
-              <div class="number-of-adults">
-                <p class="people form-word horizontal-content">Взрослые:</p>
-                <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
-                  <span class="minus">-</span>
-                </button>
-                <!--работа счетчика будет в дальнейшем реализована на js-->
-                <span class="counter" data-number="2">2</span>
-                <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
-                  <span class="plus">+</span>
-                </button>
-              </div>
-              <div class="number-of-children">
-                <p class="people form-word">Дети:</p>
-                <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
-                  <span class="minus">-</span>
-                </button>
-                <!--работа счетчика будет в дальнейшем реализована на js-->
-                <span class="counter" data-number="2">2</span>
-                <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
-                  <span class="plus">+</span>
-                </button>
-              </div>
-            </div>
-          <button class="find-hotel" value="найти">найти</button>
-        </form>
       </section>
       <section class="map-container">
         <h2 class="visually-hidden">Адрес седонны на карте США</h2>
+        <form class="form-container">
+          <div class="check-in-date-container">
+            <label for="check-in-date" class="form-word horizontal-content">дата заезда:</label>
+            <input type="date" id="check-in-date" value="2017-04-24">
+          </div>
+          <div class="departure-date-container">
+            <label for="departure-date" class="form-word horizontal-content">Дата выезда:</label>
+            <input id="departure-date" type="date" value="2017-06-04">
+          </div>
+          <div class="double-container">
+            <div class="number-of-adults">
+              <p class="people form-word horizontal-content">Взрослые:</p>
+              <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
+                <span class="minus">-</span>
+              </button>
+              <!--работа счетчика будет в дальнейшем реализована на js-->
+              <span class="counter" data-number="2">2</span>
+              <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
+                <span class="plus">+</span>
+              </button>
+            </div>
+            <div class="number-of-children">
+              <p class="people form-word">Дети:</p>
+              <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
+                <span class="minus">-</span>
+              </button>
+              <!--работа счетчика будет в дальнейшем реализована на js-->
+              <span class="counter" data-number="2">2</span>
+              <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
+                <span class="plus">+</span>
+              </button>
+            </div>
+          </div>
+          <button class="find-hotel" value="найти">найти</button>
+        </form>
         <!--<img src="img/map.jpg" alt="Sedona Arizona 86336 USA"  width="1200" height="470">-->
         <!--работа карты будет в дальнейшем реализована на js-->
       </section>
