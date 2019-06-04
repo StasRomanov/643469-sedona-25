@@ -16,6 +16,13 @@ body {
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
+.all-content-shadow {
+  width: 1280px;
+  height: 2762px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
 .horizontal-content {
   text-align: center;
 }
@@ -170,7 +177,7 @@ a {
   background-size: 100%;
   background-repeat: no-repeat,no-repeat;
   background-position: 50% 451px, 50% -84px;
-  padding-top: 76px;
+  background-clip: content-box;
 }
 
 .button {
@@ -485,6 +492,7 @@ a {
   margin-bottom: 71px;
   width: 459px;
   height: 353px;
+  margin-top: 76px;
 }
 
 

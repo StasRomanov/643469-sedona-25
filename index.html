@@ -8,28 +8,29 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="body-index">
-  <div class="all-content-container">
-    <header class="main-header horizontal-content">
-      <nav class="main-nav">
-        <a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a>
-        <ul class="nav">
-          <li><a href="#" class="nav-link">информация</a></li>
-          <li><a href="#" class="nav-link">фото и видео</a></li>
-          <li class="empty"></li>
-          <li><a href="#" class="nav-link">карта штата</a></li>
-          <li><a href="catalog.html" class="nav-link">гостиницы</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main-content horizontal-content">
-      <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
-      <div class="welcome-container">
-        <img src="img/welcome.png" class="welcome" alt="Welcome to the gorgeous Sedona!"  height="353" width="459">
-        <div class="description">
+  <div class="all-content-shadow">
+    <div class="all-content-container">
+      <header class="main-header horizontal-content">
+        <nav class="main-nav">
+          <a href="index.html"><img src="img/logo.png" alt="sedona" class="nav-picture"></a>
+          <ul class="nav">
+            <li><a href="#" class="nav-link">информация</a></li>
+            <li><a href="#" class="nav-link">фото и видео</a></li>
+            <li class="empty"></li>
+            <li><a href="#" class="nav-link">карта штата</a></li>
+            <li><a href="catalog.html" class="nav-link">гостиницы</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-content horizontal-content">
+        <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
+        <div class="welcome-container">
+          <img src="img/welcome.png" class="welcome" alt="Welcome to the gorgeous Sedona!"  height="353" width="459">
+        </div>
+        <section class="description">
           <h2>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        </div>
-      </div>
+        </section>
         <section class="all-content-grid-container">
           <ul class="features-list">
             <li class="features-list-item features-list-item--big town">
@@ -84,93 +85,94 @@
             </li>
           </ul>
         </section>
-      <section class="interest">
-        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-        <p class="interest-main-word">заинтересовались?</p>
-        <p class="interest-data">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="interest-find-hotel" href="#">Поиск гостиницы в Седоне</a>
-      </section>
-      <section class="map-container">
-        <h2 class="visually-hidden">Адрес седонны на карте США</h2>
-        <form class="form-container">
-          <div class="check-in-date-container">
-            <label for="check-in-date" class="form-word">дата заезда:</label>
-            <input type="text" id="check-in-date" placeholder="24 апреля 2017" class="check-in-date-form">
-          </div>
-          <div class="departure-date-container">
-            <label for="departure-date" class="form-word">Дата выезда:</label>
-            <input id="departure-date" type="text" placeholder="4 июля 2017" class="departure-date-form">
-          </div>
-          <div class="double-container">
-            <div class="number-of-adults">
-              <p class="people form-word">Взрослые:</p>
-              <div class="count-wrapper">
-                <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
-                  <span class="minus">-</span>
-                </button>
-                <!--работа счетчика будет в дальнейшем реализована на js-->
-                <span class="counter" data-number="2">2</span>
-                <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
-                  <span class="plus">+</span>
-                </button>
+        <section class="interest">
+          <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+          <p class="interest-main-word">заинтересовались?</p>
+          <p class="interest-data">укажите предпологаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+          <a class="interest-find-hotel" href="#">Поиск гостиницы в Седоне</a>
+        </section>
+        <section class="map-container">
+          <h2 class="visually-hidden">Адрес седонны на карте США</h2>
+          <form class="form-container">
+            <div class="check-in-date-container">
+              <label for="check-in-date" class="form-word">дата заезда:</label>
+              <input type="text" id="check-in-date" placeholder="24 апреля 2017" class="check-in-date-form">
+            </div>
+            <div class="departure-date-container">
+              <label for="departure-date" class="form-word">Дата выезда:</label>
+              <input id="departure-date" type="text" placeholder="4 июля 2017" class="departure-date-form">
+            </div>
+            <div class="double-container">
+              <div class="number-of-adults">
+                <p class="people form-word">Взрослые:</p>
+                <div class="count-wrapper">
+                  <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
+                    <span class="minus">-</span>
+                  </button>
+                  <!--работа счетчика будет в дальнейшем реализована на js-->
+                  <span class="counter" data-number="2">2</span>
+                  <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
+                    <span class="plus">+</span>
+                  </button>
+                </div>
+              </div>
+              <div class="number-of-children">
+                <p class="people form-word children">Дети:</p>
+                <div class="count-wrapper">
+                  <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
+                    <span class="minus">-</span>
+                  </button>
+                  <!--работа счетчика будет в дальнейшем реализована на js-->
+                  <span class="counter" data-number="2">2</span>
+                  <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
+                    <span class="plus">+</span>
+                  </button>
+                </div>
               </div>
             </div>
-            <div class="number-of-children">
-              <p class="people form-word children">Дети:</p>
-              <div class="count-wrapper">
-                <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
-                  <span class="minus">-</span>
-                </button>
-                <!--работа счетчика будет в дальнейшем реализована на js-->
-                <span class="counter" data-number="2">2</span>
-                <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
-                  <span class="plus">+</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <button class="find-hotel" value="найти">НАЙТИ</button>
-        </form>
-        <!--<img src="img/map.jpg" alt="Sedona Arizona 86336 USA"  width="1200" height="470">-->
-        <!--работа карты будет в дальнейшем реализована на js-->
-      </section>
-    </main>
-    <footer class="main-footer">
-      <div class="visit-container">
-        <p class="visit">#visitsedona</p>
-      </div>
-      <div class="social-buttons-container">
-        <ul class="social-buttons-list">
-          <li>
-            <a class="social-button tw-icon" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
-                <path fill="#ffffff" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="social-button fb-icon" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
-                <path fill="#ffffff" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a class="social-button youtube-icon" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
-                <path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"></path>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-copyright-container">
-        <div class="footer-copyright">
-          <p><b>website by</b></p>
-          <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="html academy"></a>
+            <button class="find-hotel" value="найти">НАЙТИ</button>
+          </form>
+          <!--<img src="img/map.jpg" alt="Sedona Arizona 86336 USA"  width="1200" height="470">-->
+          <!--работа карты будет в дальнейшем реализована на js-->
+        </section>
+      </main>
+      <footer class="main-footer">
+        <div class="visit-container">
+          <p class="visit">#visitsedona</p>
         </div>
-      </div>
-    </footer>
+        <div class="social-buttons-container">
+          <ul class="social-buttons-list">
+            <li>
+              <a class="social-button tw-icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15">
+                  <path fill="#ffffff" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-button fb-icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22">
+                  <path fill="#ffffff" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"></path>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-button youtube-icon" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+                  <path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-copyright-container">
+          <div class="footer-copyright">
+            <p><b>website by</b></p>
+            <a class="html-academy" href="https://htmlacademy.ru/intensive/htmlcss" aria-label="html academy"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </div>
   </body>
 </html>
