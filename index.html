@@ -104,28 +104,34 @@
             </div>
             <div class="double-container">
               <div class="number-of-adults">
-                <p class="people form-word">Взрослые:</p>
+                <p class="people">Взрослые:</p>
                 <div class="count-wrapper">
                   <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
-                    <span class="minus">-</span>
+                    <span class="minus"></span>
                   </button>
                   <!--работа счетчика будет в дальнейшем реализована на js-->
                   <span class="counter" data-number="2">2</span>
                   <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
-                    <span class="plus">+</span>
+                    <div class="plus-wrapper">
+                      <span class="plus-part-1"></span>
+                      <span class="plus-part-2"></span>
+                    </div>
                   </button>
                 </div>
               </div>
               <div class="number-of-children">
-                <p class="people form-word children">Дети:</p>
-                <div class="count-wrapper">
+                <p class="people">Дети:</p>
+                <div class="count-wrapper count-wrapper--children">
                   <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
-                    <span class="minus">-</span>
+                    <span class="minus"></span>
                   </button>
                   <!--работа счетчика будет в дальнейшем реализована на js-->
-                  <span class="counter" data-number="2">2</span>
+                  <span class="counter" data-number="2">0</span>
                   <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
-                    <span class="plus">+</span>
+                    <div class="plus-wrapper">
+                      <span class="plus-part-1"></span>
+                      <span class="plus-part-2"></span>
+                    </div>
                   </button>
                 </div>
               </div>

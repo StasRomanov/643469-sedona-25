@@ -198,6 +198,7 @@ a {
   background-color: #81b3d2;
   color: #ffffff;
   font-size: 21px;
+  border: none;
 }
 
 .social-buttons-list li {
@@ -239,7 +240,8 @@ a {
   margin-top: 29px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 0 55px 0 55px;
 }
 
 .number-of-adults,
@@ -274,35 +276,37 @@ a {
   height: 38px;
   background-color: #f2f2f2;
   border: none;
+  flex-shrink: 0;
+  padding: 0;
 }
 
 .people {
   padding: 0;
-  margin-top: 5px;
-  margin-left: 55px;
+  margin: 10px 0 0;
 }
 
 .count-wrapper {
   margin-left: 40px;
+  margin-top: 2px;
   background-color: #f2f2f2;
   display: grid;
   grid-template-columns: 38px 38px 38px;
   grid-template-rows: 38px;
-  width: 76px;
+  width: 114px;
   height: 38px;
+}
+
+.count-wrapper--children {
+  margin-left: 26px;
 }
 
 .counter {
   line-height: 38px;
 }
 
-.children {
-  margin-left: 91px;
-}
-
 .find-hotel {
   padding: 0;
-  margin: 46px auto;
+  margin: 54px auto;
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -312,6 +316,46 @@ a {
   text-align: center;
   color: #ffffff;
 }
+
+.minus {
+  width: 13px;
+  height: 3px;
+  background-color: #a9a9a9;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+}
+
+.plus-wrapper {
+  display: flex;
+  position: relative;
+  left: 14px;
+  bottom: 1px;
+}
+
+.plus-part-1 {
+  width: 11px;
+  height: 3px;
+  background-color: #a9a9a9;
+  margin: auto;
+  position: absolute;
+}
+
+.plus-part-2 {
+  width: 11px;
+  height: 3px;
+  background-color: #a9a9a9;
+  transform: rotate(90deg);
+  margin: auto;
+  position: absolute;
+}
+
+.number-of-children {
+  margin-left: 55px;
+}
+
 /*style guide page 1*/
 
 .button:hover,
@@ -663,6 +707,7 @@ a {
 .interest {
   min-height: 270px;
   padding-top: 21px;
+  background-color: #ffffff;
 }
 
 .interest-find-hotel {
