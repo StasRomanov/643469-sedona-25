@@ -12,13 +12,13 @@ body {
 .all-content-container {
   width: 1200px;
   margin: 0 auto;
-  height: 2762px;
+  min-height: 2762px;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .all-content-shadow {
   width: 1280px;
-  height: 2762px;
+  min-height: 2762px;
   background-color: #f2f2f2;
   margin: 0 auto;
 }
@@ -110,6 +110,7 @@ a {
   color: #000000;
   background-color: #ffffff;
   margin-bottom: 24px;
+  padding: 0 35px 0 35px;
 }
 
 .interest-data {
@@ -237,16 +238,23 @@ a {
 }
 
 .double-container {
-  margin-top: 29px;
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 55px 0 55px;
 }
 
 .number-of-adults,
 .number-of-children {
   display: flex;
+}
+
+.number-of-adults {
+  margin-left: 55px;
+}
+
+.number-of-children {
+  margin-right: 55px;
 }
 
 .button {
@@ -272,17 +280,27 @@ a {
 .check-in-date-form,
 .departure-date-form {
   margin-right: 54px;
-  width: 346px;
+  width: 336px;
   height: 38px;
   background-color: #f2f2f2;
   border: none;
   flex-shrink: 0;
-  padding: 0;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
 
 .people {
   padding: 0;
   margin: 10px 0 0;
+  max-width: 72px;
+  word-wrap: break-word;
 }
 
 .count-wrapper {
@@ -706,16 +724,15 @@ a {
 
 .interest {
   min-height: 270px;
-  padding-top: 21px;
+  padding: 21px 30px 0;
   background-color: #ffffff;
 }
 
 .interest-find-hotel {
   display: block;
-  min-width: 568px;
+  width: 568px;
   min-height: 86px;
-  margin-left: 316px;
-  margin-right: 316px;
+  margin-left: 286px;
   line-height: 86px;
 }
 
