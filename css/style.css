@@ -575,8 +575,8 @@ a {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 400px 400px 400px 400px;
-  grid-template-rows: 256px 330px 256px 256px;
+  grid-template-columns: 400px 400px 400px;
+  grid-auto-rows: minmax(256px, auto) minmax(256px, auto) minmax(330px, auto) minmax(256px, auto);
 }
 
 .town {
@@ -597,7 +597,7 @@ a {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 330px 330px 330px;
+  grid-template-rows: minmax(330px, auto);
 }
 
 .features-sublist {
@@ -607,7 +607,7 @@ a {
   grid-row-end: 1;
   display: grid;
   grid-template-columns: 400px 400px;
-  grid-template-rows: 330px;
+  grid-template-rows: minmax(330px, auto);;
   margin: 0;
   padding: 0;
 }
