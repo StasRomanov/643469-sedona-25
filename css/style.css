@@ -371,6 +371,42 @@ a {
   margin-left: 55px;
 }
 
+.features-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  list-style: none;
+}
+
+.features-list--row-1 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  list-style: none;
+}
+
+.town {
+  width: 400px;
+  min-height: 256px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*style guide page 1*/
 
 .button:hover,
