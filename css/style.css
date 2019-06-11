@@ -307,9 +307,6 @@ a {
   margin-left: 40px;
   margin-top: 2px;
   background-color: #f2f2f2;
-  display: grid;
-  grid-template-columns: 38px 38px 38px;
-  grid-template-rows: 38px;
   width: 114px;
   height: 38px;
 }
@@ -567,90 +564,18 @@ a {
   margin-bottom: 0;
 }
 
-.all-content-grid-container {
+.all-content-flex-container {
   width: 100%;
 }
 
 .features-list {
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-auto-rows: minmax(256px, auto) minmax(256px, auto) minmax(330px, auto) minmax(256px, auto);
-}
-
-.town {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-.town-picture {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-}
-
-.features-list-other-item {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: minmax(330px, auto);
 }
 
 .features-sublist {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 1;
-  display: grid;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: minmax(330px, auto);;
   margin: 0;
   padding: 0;
-}
-
-.home {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-.food {
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-
-.souvenirs {
-  grid-column-start: 3;
-  grid-row-start: 1;
-}
-
-.devil-bridge-picture {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 3;
-}
-
-.devil-bridge {
-  grid-column-start: 3;
-  grid-row-start: 3;
-}
-
-.square {
-  grid-column-start: 1;
-  grid-row-start: 4;
-}
-
-.road {
-  grid-column-start: 2;
-  grid-row-start: 4;
-}
-
-.tourist {
-  grid-column-start: 3;
-  grid-row-start: 4;
 }
 
 .icon {
