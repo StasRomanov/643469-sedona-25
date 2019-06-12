@@ -315,6 +315,9 @@ a {
   margin-left: 40px;
   margin-top: 2px;
   background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: 38px 38px 38px;
+  grid-template-rows: 38px;
   width: 114px;
   height: 38px;
 }
