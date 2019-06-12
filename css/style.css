@@ -9,6 +9,11 @@ body {
   padding: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .all-content-container {
   width: 1200px;
   margin: 0 auto;
@@ -92,6 +97,9 @@ a {
 
 .features-list-item--gray {
   background-color: #eeeeee;
+  width: 100%;
+  padding: 33px 65px 0 65px;
+  min-height: 210px;
 }
 
 .features-list-item--big {
@@ -389,23 +397,59 @@ a {
 }
 
 .town {
-  width: 400px;
-  min-height: 256px;
+  width: 280px;
+  padding: 45px 60px 21px 60px;
 }
 
+.features-sublist {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding: 0 66px 64px 75px;
+  align-items: stretch;
+  list-style: none;
+}
 
+.features-list--row-3 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  list-style: none;
+}
 
+.home-icon {
+  width: 75px;
+  height: 72px;
+}
 
+.food-icon {
+  width: 74px;
+  height: 70px;
+}
 
+.souvenirs-icon {
+  width: 64px;
+  height: 76px;
+}
 
+.devil-bridge {
+  width: 302px;
+  padding: 44px 49px 49px 49px;
+}
 
-
-
-
-
-
-
-
+.features-list--row-4 ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  list-style: none;
+}
 
 /*style guide page 1*/
 
@@ -609,11 +653,6 @@ a {
   padding: 0;
 }
 
-.features-sublist {
-  margin: 0;
-  padding: 0;
-}
-
 .icon {
   padding-top: 54px;
 }
@@ -648,8 +687,7 @@ a {
   color: #ffffff;
   font-size: 21px;
   font-weight: bold;
-  margin-bottom: 24px;
-  margin-top: 43px;
+  margin: 0 0 24px 4px;
 }
 
 .number-white {
@@ -680,7 +718,7 @@ a {
 .square-headline,
 .road-headline {
   margin: 0;
-  padding: 47px 0 0 0;
+  padding: 0;
 }
 
 .interest {
@@ -934,7 +972,7 @@ a {
   font-weight: bold;
   color: #000000;
   line-height: 21px;
-  padding: 47px 0 0 3px;
+  padding: 0 0 0 3px;
   margin-bottom: 22px;
 }
 
