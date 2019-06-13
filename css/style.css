@@ -37,7 +37,9 @@ img {
 .features-sublist-item,
 .social-buttons-list,
 .hotels-list,
-.hotels {
+.hotels,
+.filter-list,
+.filter-item {
   list-style:none;
 }
 
@@ -98,8 +100,7 @@ a {
 .features-list-item--gray {
   background-color: #eeeeee;
   width: 100%;
-  padding: 33px 65px 0 65px;
-  min-height: 210px;
+  padding: 48px 65px 49px 65px;
 }
 
 .features-list-item--big {
@@ -409,7 +410,7 @@ a {
   justify-content: space-between;
   flex-direction: row;
   margin: 0;
-  padding: 0 66px 64px 75px;
+  padding: 0;
   align-items: stretch;
   list-style: none;
 }
@@ -441,7 +442,14 @@ a {
 
 .devil-bridge {
   width: 302px;
-  padding: 44px 49px 49px 49px;
+  padding: 44px 49px 44px 49px;
+}
+
+.devil-bridge-jpg,
+.feature-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .features-list--row-4 ul{
@@ -452,6 +460,10 @@ a {
   padding: 0;
   align-items: stretch;
   list-style: none;
+}
+
+.features-sublist-item {
+  padding: 59px 64px 62px 67px;
 }
 
 /*style guide page 1*/
@@ -656,10 +668,6 @@ a {
   padding: 0;
 }
 
-.icon {
-  padding-top: 54px;
-}
-
 .item-description {
   font-size: 14px;
   font-weight: normal;
@@ -726,7 +734,7 @@ a {
 
 .interest {
   min-height: 270px;
-  padding: 21px 30px 0;
+  padding: 19px 30px 0;
   background-color: #ffffff;
 }
 
@@ -821,7 +829,7 @@ a {
   display: block;
   min-height: 303px;
   width: 100%;
-  background-color: rgba(248,130,48,0.67);
+  background-image: url("../img/filter-background.jpg");
 }
 
 .hotel-list-container {
@@ -955,14 +963,6 @@ a {
   margin-top: 24px;
 }
 
-.food-icon {
-  padding-top: 59px;
-}
-
-.home-icon {
-  padding-top: 59px;
-}
-
 .home-headline,
 .food-headline {
   margin-top: 23px;
@@ -990,7 +990,6 @@ a {
 
 .all-content2-container {
   width: 1200px;
-  height: 933px;
   margin: 0 auto;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
