@@ -109,6 +109,7 @@ a {
 
 .features-list-other-item{
   background-color: #ffffff;
+  min-height: 330px;
 }
 
 .interest-main-word {
@@ -481,8 +482,14 @@ a {
 }
 
 .features-sublist-item {
-  padding: 59px 64px 62px 67px;
+  padding: 59px 57px 62px 74px;
 }
+/*pixel-perfect page 1*/
+
+.souvenirs {
+  padding: 55px 66px 62px 60px;
+}
+
 
 /*style guide page 1*/
 
