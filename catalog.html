@@ -25,7 +25,74 @@
     <h1 class="visually-hidden">Отели и не только в седоне!</h1>
     <form class="filter-hotel-container">
       <!--в последствии сюда будет добавлена форма-->
+      <section class="form-filter">
+        <h2 class="visually-hidden">фильтры оттелей и их парраметры</h2>
+        <div class="filter-1-checkbox">
+          <p class="filter-main-word">Инфраструктура:</p>
+          <ul class="filter-input-list">
+            <li class="filter-1-input-item filter-item">
+              <input type="checkbox" checked id="pool" class="checkbox" name="pool" value="pool">
+              <label for="pool" class="checkbox-label pool">Бассейн</label>
+            </li>
+            <li class="filter-2-input-item filter-item">
+              <input type="checkbox" id="parking" class="checkbox" name="parking" value="parking">
+              <label for="parking" class="checkbox-label parking">Парковка</label>
+            </li>
+            <li class="filter-3-input-item filter-item">
+              <input type="checkbox" id="WI-FI" class="checkbox" name="WI-FI" value="WI-FI">
+              <label for="WI-FI" class="checkbox-label WI-FI">WI-FI</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-2-checkbox">
+          <p class="filter-main-word">Тип жилья:</p>
+          <ul class="filter-input-list">
+            <li class="filter-1-input-item filter-item">
+              <input type="checkbox" checked id="hotel" class="checkbox" name="hotel" value="hotel">
+              <label for="hotel" class="checkbox-label hotel">Гостиница</label>
+            </li>
+            <li class="filter-2-input-item filter-item">
+              <input type="checkbox" id="motel" class="checkbox" name="motel" value="motel" checked>
+              <label for="motel" class="checkbox-label motel">Мотель</label>
+            </li>
+            <li class="filter-3-input-item filter-item">
+              <input type="checkbox" id="apartments" class="checkbox" name="apartments" value="apartments" checked>
+              <label for="apartments" class="checkbox-label apartments">Апартаменты</label>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="filter-3-range filter-range">
+        <div class="filter-range-title">Стоимость в сутки (р):</div>
+        <div class="price-controls">
+          <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+          <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+        </div>
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+        <button class="btn-transparent" type="submit">Показать</button>
+      </section>
     </form>
+    <section class="find-results">
+      <h3 class="visually-hidden">результаты поиска</h3>
+      <h4 class="find-results-answer">Найдено: 3</h4>
+        <p class="find-results-sorting">Сортировка:</p>
+        <ul class="find-results-list">
+          <li class="find-results-item find-results-item--active">По цене</li>
+          <li class="find-results-item">По типу</li>
+          <li class="find-results-item">По рейтингу</li>
+        </ul>
+      <span class="btn-top-bottom">
+        <button class="page-before btn"></button>
+        <button class="page-after btn"></button>
+      </span>
+    </section>
+
     <section class="hotel-list-container">
       <h2 class="visually-hidden">Список отелей в Седоне</h2>
       <ul class="hotels">
@@ -113,7 +180,7 @@
             <p>рейтинг: 9,2</p>
           </div>
         </li>
-    </ul>
+      </ul>
     </section>
   </main>
   <footer class="main-footer">
