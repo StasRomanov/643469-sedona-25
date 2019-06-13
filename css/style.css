@@ -1035,3 +1035,20 @@ a {
 .stars span {
   margin-left: 3px;
 }
+
+.star {
+  width: 17px;
+}
+
+.visit-container--hotel {
+  margin-top: 0;
+}
+
+.social-buttons-container--hotel {
+  margin-top: 0;
+  margin-left: 74px;
+}
+
+.footer-copyright-container--hotel {
+  padding-top: 0;
+}
