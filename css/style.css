@@ -247,7 +247,7 @@ a {
 }
 
 .double-container {
-  margin-top: 25px;
+  margin-top: 29px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -294,7 +294,7 @@ a {
   background-color: #f2f2f2;
   border: none;
   flex-shrink: 0;
-  padding-left: 10px;
+  padding: 0 0 0 10px;
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -303,6 +303,24 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: #000000;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.calendar {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  border: none;
+  bottom: 6px;
+  left: 314px;
+  background-color: inherit;
 }
 
 .people {
@@ -757,20 +775,21 @@ a {
 
 .main-footer {
   display: flex;
-  width: 1200px;
   min-height: 120px;
   opacity: 0.9;
   align-items: center;
   justify-content: space-around;
   background-color: #ffffff;
   margin-top: 0;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .visit-container {
   min-width: 136px;
   min-height: 16px;
   margin-top: 5px;
-  margin-left: 36px;
+  margin-left: 30px;
 }
 
 .visit {
