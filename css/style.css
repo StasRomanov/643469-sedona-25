@@ -10,20 +10,18 @@ body {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .all-content-container {
   width: 1200px;
   margin: 0 auto;
-  min-height: 2762px;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .all-content-shadow {
   width: 1280px;
-  min-height: 2762px;
   background-color: #f2f2f2;
   margin: 0 auto;
 }
@@ -774,7 +772,7 @@ a {
 
 .map-container {
   width: 1200px;
-  height: 470px;
+  height: 588px;
   background-image: url("../img/map.jpg");
   background-size: auto;
   background-repeat: no-repeat;
@@ -783,11 +781,10 @@ a {
 
 .main-footer {
   display: flex;
-  min-height: 120px;
-  opacity: 0.9;
+  min-height: 118px;
   align-items: center;
   justify-content: space-around;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0;
   padding-right: 12px;
   padding-left: 12px;
@@ -888,7 +885,7 @@ a {
 
 .hotel-picture-link {
   display: block;
-  width: 135px;
+  min-width: 135px;
   height: 90px;
   margin-left: 72px;
   margin-right: 30px;
@@ -910,7 +907,7 @@ a {
 
 .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .info-link {
@@ -937,6 +934,8 @@ a {
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
+  max-width: 335px;
+  word-break: break-all;
 }
 
 .hotel-cost {
@@ -965,6 +964,7 @@ a {
   justify-content: space-between;
   flex-direction: column;
   align-items: flex-end;
+  max-width: 135px;
 }
 
 .rating p {
@@ -1086,7 +1086,7 @@ a {
   height: 19px;
   border: 2px solid #ffffff;
   border-radius: 2px;
-  right: 110px;
+  left: -40px;
   top: 1px;
 }
 
@@ -1097,7 +1097,7 @@ a {
   height: 15px;
   border-left: 5px solid white;
   border-top: 5px solid white;
-  right: 112px;
+  left: -30px;
   bottom: 5px;
   transform: rotate(225deg);
 }
@@ -1133,24 +1133,6 @@ a {
 
 .filter-1-checkbox {
   margin-right: 121px;
-}
-/*начинаю выравнивать фильтры(2) по pixel-perfect*/
-
-.hotel::after,
-.checkbox:checked + .hotel::before,
-.motel::after,
-.checkbox:checked + .motel::before {
-  right: 116px;
-}
-
-.checkbox:checked + .apartments::before {
-  right: 117px;
-  bottom: 7px;
-}
-
-.apartments::after {
-  right: 115px;
-  top: -2px;
 }
 
 .filter-range {
@@ -1325,7 +1307,6 @@ a {
   letter-spacing: normal;
   text-align: left;
   color: rgba(0, 0, 0, 0.3);
-  opacity: 0.3;
   margin: 0 32px 0 0;
   border-bottom: 1px dotted #81b3d2;
   height: 19px;
@@ -1333,6 +1314,7 @@ a {
 
 .find-results-item--active {
   color: #81b3d2;
+  border: none;
 }
 
 .btn-top-bottom {
@@ -1357,3 +1339,11 @@ a {
   border: none;
 }
 
+.hotel-picture {
+  min-width: 135px;
+  min-height: 90px;
+}
+
+.footer-page-1 {
+  margin-top: -118px;
+}
