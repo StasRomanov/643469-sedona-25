@@ -1261,6 +1261,7 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 32px 73px 28px 73px;
+  border-bottom: 1px solid #cacaca;
 }
 
 .find-results-answer {
