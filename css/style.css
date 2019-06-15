@@ -53,12 +53,19 @@ a {
   color: #000000;
 }
 
-.visually-hidden {
-  position:absolute;
-  clip: rect(0 0 0 0);
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .description h2 {
@@ -885,7 +892,7 @@ a {
 
 .hotel-picture-link {
   display: block;
-  min-width: 135px;
+  max-width: 135px;
   height: 90px;
   margin-left: 72px;
   margin-right: 30px;
@@ -908,32 +915,33 @@ a {
 .buttons {
   display: flex;
   justify-content: flex-start;
+  max-width: 700px;
 }
 
 .info-link {
-  min-width: 110px;
+  min-width: 100px;
   min-height: 27px;
   margin-right: 6px;
   line-height: 27px;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .hotel-page {
-  min-width: 142px;
+  min-width: 132px;
   min-height: 27px;
   line-height: 27px;
   text-align: center;
+  word-break: break-word;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .hotel-type {
   padding: 0;
-  margin: 0 39px 14px 0;
+  margin: 0 39px 0 0;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
   max-width: 335px;
   word-break: break-all;
 }
@@ -942,6 +950,9 @@ a {
   margin: 0;
   padding: 0;
   font-size: 14px;
+}
+
+.hotel-information {
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -953,6 +964,7 @@ a {
   display: flex;
   justify-content: flex-start;
   min-width: 172px;
+  padding-bottom: 14px;
 }
 
 .rating {
@@ -1323,28 +1335,28 @@ a {
 }
 
 .page-before {
-  background-color: transparent;
   background-image: url("../img/icon-up-dir.svg");
+}
+
+.page-after {
+  background-image: url("../img/icon-down-dir.svg");
+}
+
+.btn {
+  background-color: transparent;
   background-repeat: no-repeat;
   width: 11px;
   height: 10px;
   border: none;
 }
 
-.page-after {
-  background-color: transparent;
-  background-image: url("../img/icon-down-dir.svg");
-  background-repeat: no-repeat;
-  width: 11px;
-  height: 10px;
-  border: none;
-}
+
 
 .hotel-picture {
   min-width: 135px;
   min-height: 90px;
 }
 
-.footer-page-1 {
+.body-index footer {
   margin-top: -118px;
 }
