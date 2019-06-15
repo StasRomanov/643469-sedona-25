@@ -1362,3 +1362,7 @@ input[type="radio"].visually-hidden {
 .body-index footer {
   margin-top: -118px;
 }
+
+.search-hidden {
+  display: none;
+}
