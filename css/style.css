@@ -105,8 +105,10 @@ input[type="radio"].visually-hidden {
 
 .features-list-item--gray {
   background-color: #eeeeee;
-  width: 100%;
-  padding: 48px 65px 49px 65px;
+  width: 302px;
+  margin: 0;
+  text-align: center;
+  padding: 45px 49px 51px;
 }
 
 .features-list-item--big {
@@ -411,11 +413,11 @@ input[type="radio"].visually-hidden {
 .features-list {
   display: flex;
   justify-content: flex-start;
-  flex-direction: column;
   list-style: none;
+  flex-wrap: wrap;
 }
 
-.features-list--row-1 ul {
+.features-list--row-1 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -440,7 +442,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
 }
 
-.features-list--row-3 ul {
+.features-list--row-3 {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -477,7 +479,7 @@ input[type="radio"].visually-hidden {
   height: auto;
 }
 
-.features-list--row-4 ul{
+.features-list--row-4 div {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -493,7 +495,7 @@ input[type="radio"].visually-hidden {
 /*pixel-perfect page 1*/
 
 .souvenirs {
-  padding: 55px 66px 62px 60px;
+  padding: 55px 66px 62px 66px;
 }
 
 
