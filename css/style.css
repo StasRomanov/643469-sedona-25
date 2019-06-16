@@ -372,7 +372,6 @@ input[type="radio"].visually-hidden {
 }
 
 .find-hotel {
-  padding: 0;
   margin: 54px auto;
   font-size: 21px;
   font-weight: bold;
@@ -382,8 +381,7 @@ input[type="radio"].visually-hidden {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 
 .minus {
