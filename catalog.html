@@ -26,8 +26,8 @@
     <form class="filter-hotel-container">
       <div class="form-filter">
         <h2 class="visually-hidden">фильтры отелей и их параметры</h2>
-        <div class="filter-1-checkbox">
-          <p class="filter-main-word">Инфраструктура:</p>
+        <fieldset class="filter-1-checkbox fieldset">
+          <legend class="filter-main-word">Инфраструктура:</legend>
           <ul class="filter-input-list">
             <li class="filter-1-input-item filter-item">
               <input type="checkbox" checked id="pool" class="checkbox" name="pool" value="pool">
@@ -42,9 +42,9 @@
               <label for="WI-FI" class="checkbox-label WI-FI">WI-FI</label>
             </li>
           </ul>
-        </div>
-        <div class="filter-2-checkbox">
-          <p class="filter-main-word">Тип жилья:</p>
+        </fieldset>
+        <fieldset class="filter-2-checkbox fieldset">
+          <legend class="filter-main-word">Тип жилья:</legend>
           <ul class="filter-input-list">
             <li class="filter-1-input-item filter-item">
               <input type="checkbox" checked id="hotel" class="checkbox" name="hotel" value="hotel">
@@ -59,10 +59,10 @@
               <label for="apartments" class="checkbox-label apartments">Апартаменты</label>
             </li>
           </ul>
-        </div>
+        </fieldset>
       </div>
-      <div class="filter-3-range filter-range">
-        <h2 class="visually-hidden">выберите стоимость в сутки</h2>
+      <fieldset class="filter-3-range filter-range fieldset">
+        <legend class="visually-hidden">выберите стоимость в сутки</legend>
         <div class="filter-range-title">Стоимость в сутки (р):</div>
         <div class="price-controls">
           <label class="min-price">от <input type="text" name="min-price" value="0"></label>
@@ -76,7 +76,7 @@
           <div class="range-toggle range-toggle-max"></div>
         </div>
         <button class="btn-transparent" type="submit">Показать</button>
-      </div>
+      </fieldset>
     </form>
     <section class="find-results">
       <h2 class="visually-hidden">результаты поиска</h2>

@@ -68,6 +68,19 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.fieldset {
+  padding: 0;
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-block-end: 0;
+  min-inline-size: auto;
+  border: none;
+}
+
 .description h2 {
   font-size: 21px;
   font-weight: bold;
