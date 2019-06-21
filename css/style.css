@@ -225,7 +225,7 @@ input[type="radio"].visually-hidden {
 }
 
 .find-hotel {
-  width: 458px;
+  width: 420px;
   height: 58px;
   background-color: #81b3d2;
   color: #ffffff;
@@ -377,7 +377,7 @@ input[type="radio"].visually-hidden {
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.24;
+  line-height: 58px;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
@@ -1372,7 +1372,7 @@ input[type="radio"].visually-hidden {
 
 @keyframes move {
   0% {
-    transform: translateY(-200px);
+    transform: translateY(-85px);
   }
   70% {
     transform: translateY(30px);
@@ -1393,4 +1393,13 @@ input[type="radio"].visually-hidden {
 .form-animation {
   animation-name: move;
   animation-duration: 0.6s;
+}
+
+.warning::-webkit-input-placeholder {color: #ff0e35;}
+.warning::-moz-placeholder          {color:#ff0e35;}/* Firefox 19+ */
+.warning:-moz-placeholder           {color:#ff0e35;}/* Firefox 18- */
+.warning:-ms-input-placeholder      {color:#ff0e35;}
+
+.warning {
+  outline: 2px solid #ff541e;
 }

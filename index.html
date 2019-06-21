@@ -105,14 +105,14 @@
             <div class="check-in-date-container">
               <label for="check-in-date" class="form-word">дата заезда:</label>
               <div class="input-wrapper">
-                <input type="text" id="check-in-date" placeholder="24 АПРЕЛЯ 2017" class="check-in-date-form" required>
+                <input type="text" id="check-in-date" placeholder="24 АПРЕЛЯ 2017" class="check-in-date-form">
                 <button class="calendar"></button>
               </div>
             </div>
             <div class="departure-date-container">
               <label for="departure-date" class="form-word">Дата выезда:</label>
               <div class="input-wrapper">
-                <input id="departure-date" type="text" placeholder="4 ИЮЛЯ 2017" class="departure-date-form" required>
+                <input id="departure-date" type="text" placeholder="4 ИЮЛЯ 2017" class="departure-date-form">
                 <button class="calendar"></button>
               </div>
             </div>
@@ -120,12 +120,12 @@
               <div class="number-of-adults">
                 <p class="people">Взрослые:</p>
                 <div class="count-wrapper">
-                  <button class="minus-container button" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
+                  <button class="minus-container button minus-container1" type="button" aria-label="выбрать меньшее количество взрослых во время поездки">
                     <span class="minus"></span>
                   </button>
                   <!--работа счетчика будет в дальнейшем реализована на js-->
-                  <span class="counter" data-number="2">2</span>
-                  <button class="plus-container button" type="button" aria-label="выбрать большее количество взрослых во время поездки">
+                  <span class="counter cnt1" data-number="2">2</span>
+                  <button class="plus-container button plus-container1" type="button" aria-label="выбрать большее количество взрослых во время поездки">
                     <span class="plus-wrapper">
                       <span class="plus-part-1"></span>
                       <span class="plus-part-2"></span>
@@ -136,12 +136,12 @@
               <div class="number-of-children">
                 <p class="people">Дети:</p>
                 <div class="count-wrapper count-wrapper--children">
-                  <button class="minus-container button" type="button" aria-label="выбрать меньшее количество детей во время поездки">
+                  <button class="minus-container button minus-container2" type="button" aria-label="выбрать меньшее количество детей во время поездки">
                     <span class="minus"></span>
                   </button>
-                  <!--работа счетчика будет в дальнейшем реализована на js-->
-                  <span class="counter" data-number="2">0</span>
-                  <button class="plus-container button" type="button" aria-label="выбрать большее количество детей во время поездки">
+                  <!--работа счетчика реализована на js-->
+                  <span class="counter cnt2" data-number="2">0</span>
+                  <button class="plus-container button plus-container2" type="button" aria-label="выбрать большее количество детей во время поездки">
                     <span class="plus-wrapper">
                       <span class="plus-part-1"></span>
                       <span class="plus-part-2"></span>
