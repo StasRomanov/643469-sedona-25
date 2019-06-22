@@ -1432,3 +1432,24 @@ input[type="radio"].visually-hidden {
 .warning {
   outline: 2px solid #ff541e;
 }
+
+@keyframes warning-move {
+  0% {
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(10px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.warning-animation {
+  animation-name: warning-move;
+  animation-duration: 0.5s;
+  animation-iteration-count: 3;
+}

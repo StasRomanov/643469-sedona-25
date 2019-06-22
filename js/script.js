@@ -21,6 +21,7 @@ seacrch.addEventListener('click', function (evt) {
 form.addEventListener('submit', function(evt){
   if (!checkIn.value || !departure.value){
     evt.preventDefault();
+    form.classList.add('warning-animation');
   }
   if (!checkIn.value) {
     checkIn.classList.add('warning');
