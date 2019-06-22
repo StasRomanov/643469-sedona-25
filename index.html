@@ -101,18 +101,18 @@
         </section>
         <section class="map-container">
           <h2 class="visually-hidden">Адрес седонны на карте США</h2>
-          <form class="form-container" action="https://echo.htmlacademy.ru" method="post">
+          <form class="form-container" action="https://echo.htmlacademy.ru" method="post" name="all-info">
             <div class="check-in-date-container">
               <label for="check-in-date" class="form-word">дата заезда:</label>
               <div class="input-wrapper">
-                <input type="text" id="check-in-date" placeholder="24 АПРЕЛЯ 2017" class="check-in-date-form">
+                <input type="text" id="check-in-date" placeholder="24 АПРЕЛЯ 2017" class="check-in-date-form" name="check-in-date">
                 <button class="calendar"></button>
               </div>
             </div>
             <div class="departure-date-container">
               <label for="departure-date" class="form-word">Дата выезда:</label>
               <div class="input-wrapper">
-                <input id="departure-date" type="text" placeholder="4 ИЮЛЯ 2017" class="departure-date-form">
+                <input id="departure-date" type="text" placeholder="4 ИЮЛЯ 2017" class="departure-date-form" name="departure-date">
                 <button class="calendar"></button>
               </div>
             </div>
@@ -124,7 +124,7 @@
                     <span class="minus"></span>
                   </button>
                   <!--работа счетчика будет в дальнейшем реализована на js-->
-                  <span class="counter cnt1" data-number="2">2</span>
+                  <input class="amount counter cnt1" type="number" name="adults" id="adults" min="1" max="30" step="1" value="2">
                   <button class="plus-container button plus-container1" type="button" aria-label="выбрать большее количество взрослых во время поездки">
                     <span class="plus-wrapper">
                       <span class="plus-part-1"></span>
@@ -140,7 +140,7 @@
                     <span class="minus"></span>
                   </button>
                   <!--работа счетчика реализована на js-->
-                  <span class="counter cnt2" data-number="2">0</span>
+                  <input class="amount counter cnt2" type="number" name="children" id="children" min="0" max="30" step="1" value="0">
                   <button class="plus-container button plus-container2" type="button" aria-label="выбрать большее количество детей во время поездки">
                     <span class="plus-wrapper">
                       <span class="plus-part-1"></span>

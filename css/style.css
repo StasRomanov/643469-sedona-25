@@ -225,7 +225,7 @@ input[type="radio"].visually-hidden {
 }
 
 .find-hotel {
-  width: 420px;
+  width: 485px;
   height: 58px;
   background-color: #81b3d2;
   color: #ffffff;
@@ -345,6 +345,14 @@ input[type="radio"].visually-hidden {
   background-color: inherit;
 }
 
+.calendar:hover {
+  background-image: url(../img/calendar_copy.svg);
+}
+
+.calendar:active {
+  background-image: url(../img/calendar_copy2.svg);
+}
+
 .people {
   padding: 0;
   margin: 10px 0 0;
@@ -369,6 +377,15 @@ input[type="radio"].visually-hidden {
 
 .counter {
   line-height: 38px;
+  background-color: #f2f2f2;
+  margin: 0;
+  border: none;
+  font-family: 'PT Sans','Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding: 0 0 0 14px;
 }
 
 .find-hotel {
@@ -393,6 +410,18 @@ input[type="radio"].visually-hidden {
 
 .button {
   display: flex;
+}
+
+.button:hover .minus,
+.button:hover .plus-part-1,
+.button:hover .plus-part-2 {
+  background-color: rgb(0, 0, 0);
+}
+
+.button:active .minus,
+.button:active .plus-part-1,
+.button:active .plus-part-2 {
+  background-color: #81b3d2;
 }
 
 .plus-wrapper {
@@ -1395,10 +1424,10 @@ input[type="radio"].visually-hidden {
   animation-duration: 0.6s;
 }
 
-.warning::-webkit-input-placeholder {color: #ff0e35;}
-.warning::-moz-placeholder          {color:#ff0e35;}/* Firefox 19+ */
-.warning:-moz-placeholder           {color:#ff0e35;}/* Firefox 18- */
-.warning:-ms-input-placeholder      {color:#ff0e35;}
+.warning::-webkit-input-placeholder {color: rgba(255, 14, 53, 0.65);}
+.warning::-moz-placeholder          {color: rgba(255, 14, 53, 0.65);}/* Firefox 19+ */
+.warning:-moz-placeholder           {color: rgba(255, 14, 53, 0.65);}/* Firefox 18- */
+.warning:-ms-input-placeholder      {color: rgba(255, 14, 53, 0.65);}
 
 .warning {
   outline: 2px solid #ff541e;
