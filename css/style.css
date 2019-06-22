@@ -350,7 +350,7 @@ input[type="radio"].visually-hidden {
 }
 
 .calendar:active {
-  background-image: url(../img/calendar_copy2.svg);
+  background-image: url(../img/calendar_copy_2.svg);
 }
 
 .people {

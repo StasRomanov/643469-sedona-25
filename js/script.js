@@ -1,21 +1,13 @@
 var seacrch = document.querySelector('.interest-find-hotel');
 var form = document.querySelector('form');
-var visuality = false;
 var checkIn = document.querySelector('.check-in-date-form');
 var departure = document.querySelector('.departure-date-form');
+
 form.classList.add('search-hidden');
 seacrch.addEventListener('click', function (evt) {
   evt.preventDefault();
-  if (visuality === false) {
-    form.classList.remove('search-hidden');
-    form.classList.add('form-animation');
-    visuality = true;
-  }
-  else {
-    form.classList.add('search-hidden');
-    form.classList.remove('form-animation');
-    visuality = false;
-  }
+  form.classList.toggle('search-hidden');
+  form.classList.toggle('form-animation');
 });
 
 form.addEventListener('submit', function(evt){
