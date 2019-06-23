@@ -7,7 +7,8 @@ form.classList.add('search-hidden');
 seacrch.addEventListener('click', function (evt) {
   evt.preventDefault();
   form.classList.toggle('search-hidden');
-  form.classList.toggle('form-animation');
+  form.classList.add('form-animation');
+  form.classList.remove('warning-animation');
 });
 
 form.addEventListener('submit', function(evt){
@@ -25,9 +26,12 @@ form.addEventListener('submit', function(evt){
 
 checkIn.addEventListener('click', function(){
   checkIn.classList.remove('warning');
+
+  form.classList.remove('form-animation');
 });
 departure.addEventListener('click', function(){
   departure.classList.remove('warning');
+  form.classList.remove('form-animation');
 });
 
 
