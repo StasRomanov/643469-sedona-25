@@ -793,8 +793,7 @@ input[type="radio"].visually-hidden {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  width: 114px;
-  margin-right: 127px;
+  width: 241px;
 }
 
 .nav li:first-child,
@@ -807,7 +806,7 @@ input[type="radio"].visually-hidden {
 }
 
 .nav li:nth-child(3) {
-  margin-left: 217px;
+  margin-left: 91px;
 }
 
 .nav li:first-child {
@@ -949,7 +948,6 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0;
