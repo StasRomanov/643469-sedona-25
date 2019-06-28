@@ -327,6 +327,19 @@ input[type="radio"].visually-hidden {
   color: #000000;
 }
 
+.check-in-date-form:hover,
+.departure-date-form:hover {
+  background-color: #ebebeb;
+}
+
+.check-in-date-form:focus,
+.departure-date-form:focus {
+  border: solid 2px #e5e5e5;
+  background-color: #ffffff;
+  height: 34px;
+  outline: none;
+}
+
 .input-wrapper {
   position: relative;
 }
@@ -341,13 +354,19 @@ input[type="radio"].visually-hidden {
   bottom: 6px;
   left: 314px;
   background-color: inherit;
+  outline: none;
+}
+
+.calendar:focus .calendar-icon {
+  fill: #000000;
 }
 
 .calendar-icon:hover {
   fill: #000000;
+  outline: none;
 }
 
-.calendar-icon:active {
+.calendar:active .calendar-icon {
   fill: #81b3d2;
 }
 
@@ -919,6 +938,7 @@ input[type="radio"].visually-hidden {
   min-height: 151px;
   justify-content: space-between;
   border-bottom: 1px solid #cacaca;
+  background-color: white;
 }
 
 .hotel-info-wrapper {
@@ -1031,6 +1051,7 @@ input[type="radio"].visually-hidden {
   letter-spacing: normal;
   text-align: center;
   color: #666666;
+  background-color: #f2f2f2;
 }
 
 .catalog-footer {
@@ -1134,24 +1155,12 @@ input[type="radio"].visually-hidden {
 .checkbox-label::after {
   content: "";
   position: absolute;
-  width: 19px;
-  height: 19px;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+  width: 26px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
   left: -40px;
   top: 1px;
-}
-
-.checkbox:checked + .checkbox-label::before {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 15px;
-  border-left: 5px solid white;
-  border-top: 5px solid white;
-  left: -30px;
-  top: -3px;
-  transform: rotate(225deg);
 }
 
 .checkbox:not(:checked),
@@ -1367,6 +1376,15 @@ input[type="radio"].visually-hidden {
   height: 19px;
 }
 
+.find-results-item:hover {
+  color: #81b3d2;
+}
+
+.find-results-item:active {
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
 .find-results-item--active {
   color: #81b3d2;
   border: none;
@@ -1376,23 +1394,35 @@ input[type="radio"].visually-hidden {
   margin-left: auto;
 }
 
-.page-before {
-  background-image: url("../img/icon-up-dir.svg");
-}
-
-.page-after {
-  background-image: url("../img/icon-down-dir.svg");
-}
-
 .btn {
   background-color: transparent;
   background-repeat: no-repeat;
   width: 11px;
-  height: 10px;
+  height: 13px;
   border: none;
+  padding: 0;
 }
 
+.btn-after {
+  transform: rotate(180deg);
+  transform-origin: center center;
+}
 
+.btn-before {
+  margin-right: 6px;
+}
+
+.triangle-svg:hover {
+  fill: #000000;
+}
+
+.triangle-svg:active {
+  fill: #81b3d2;
+}
+
+.triangle-svg--active {
+  fill: #81b3d2;
+}
 
 .hotel-picture {
   min-width: 135px;
@@ -1456,4 +1486,8 @@ input[type="radio"].visually-hidden {
   animation-name: warning-move;
   animation-duration: 0.5s;
   animation-iteration-count: 3;
+}
+
+.checkbox:checked + .checkbox-label::after {
+  background-image: url("../img/checkbox-on.svg");
 }
