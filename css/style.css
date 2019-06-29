@@ -22,9 +22,8 @@ img {
 }
 
 .all-content-shadow {
-  width: 1280px;
+  width: 100%;
   background-color: #f2f2f2;
-  margin: 0 auto;
 }
 
 .horizontal-content {
@@ -97,7 +96,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   margin: 0 0 27px 0;
-  padding: 0 380px 0 380px;
+  padding: 0 360px 0 360px;
 }
 
 .description p {
@@ -111,7 +110,7 @@ input[type="radio"].visually-hidden {
   font-stretch: normal;
   letter-spacing: 0.1px;
   margin-bottom: 0;
-  padding: 0 354px 0 354px;
+  padding: 0 350px 0 350px;
 }
 
 .item-description,
@@ -1417,8 +1416,8 @@ input[type="radio"].visually-hidden {
 
 .price-controls input {
   width: 50px;
-  height: 40px;
-  line-height: 40px;
+  height: 38px;
+  line-height: 38px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1767,4 +1766,25 @@ input[type="radio"].visually-hidden {
 
 .iframe-map-container {
   position: relative;
+}
+
+
+/*ie 11*/
+@media all and (-ms-high-contrast:none)
+{
+  *::-ms-backdrop, .form-animation {
+    right: 710px;
+  }
+  *::-ms-backdrop, .devil-bridge {
+    padding-bottom: 0;
+  }
+  *::-ms-backdrop, .main-footer {
+    padding-top: 20px;
+  }
+  *::-ms-backdrop, .checkbox-label {
+    text-align: left;
+  }
+  *::-ms-backdrop, .btn {
+    line-height: 11px;
+  }
 }
