@@ -1,12 +1,14 @@
 body {
-  font-family: 'PT Sans', 'Arial', sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
 }
 
 img {
@@ -1358,7 +1360,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-item {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 
 .filter-1-checkbox {
@@ -1411,8 +1413,13 @@ input[type="radio"].visually-hidden {
 
 .price-controls .min-price,
 .price-controls .max-price {
-  width: 92px;
+  height: 33px;
   padding-left: 65px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 93px;
+  font-size: 14px;
+  line-height: 31px;
 }
 
 .price-controls input {
@@ -1497,12 +1504,13 @@ input[type="radio"].visually-hidden {
 .find-results {
   background-color: #ffffff;
   display: -webkit-box;
+  line-height: 32px;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 32px 73px 28px 73px;
+  padding: 32px 73px 24px 73px;
   border-bottom: 1px solid #cacaca;
 }
 
@@ -1560,7 +1568,7 @@ input[type="radio"].visually-hidden {
   color: rgba(0, 0, 0, 0.3);
   margin: 0 32px 0 0;
   border-bottom: 1px dotted #81b3d2;
-  height: 19px;
+  height: 23px;
 }
 
 .find-results-item:hover {
@@ -1795,5 +1803,9 @@ input[type="radio"].visually-hidden {
   }
   *::-ms-backdrop, .btn {
     line-height: 11px;
+  }
+  *::-ms-backdrop, .plus-wrapper {
+    left: 9px;
+    bottom: -17px;
   }
 }
