@@ -97,6 +97,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   margin: 0 0 27px 0;
+  padding: 0 380px 0 380px;
 }
 
 .description p {
@@ -110,6 +111,7 @@ input[type="radio"].visually-hidden {
   font-stretch: normal;
   letter-spacing: 0.1px;
   margin-bottom: 0;
+  padding: 0 354px 0 354px;
 }
 
 .item-description,
@@ -1616,6 +1618,8 @@ input[type="radio"].visually-hidden {
 
 .body-index footer {
   margin-top: -118px;
+  z-index: 1;
+  position: relative;
 }
 
 @-webkit-keyframes move {
@@ -1665,6 +1669,9 @@ input[type="radio"].visually-hidden {
   animation-name: move;
   -webkit-animation-duration: 0.6s;
   animation-duration: 0.6s;
+  position: absolute;
+  z-index: 3;
+  right: 449px;
 }
 
 .warning::-webkit-input-placeholder {
@@ -1752,3 +1759,12 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/checkbox-on.svg");
 }
 
+.iframe-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iframe-map-container {
+  position: relative;
+}
