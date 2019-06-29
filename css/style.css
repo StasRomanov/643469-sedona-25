@@ -152,7 +152,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   margin-bottom: 24px;
-  padding: 0 35px 0 35px;
+  padding: 0 305px 0 305px;
 }
 
 .interest-data {
@@ -165,6 +165,7 @@ input[type="radio"].visually-hidden {
   line-height: 1.71;
   letter-spacing: normal;
   margin-bottom: 48px;
+  padding: 0 200px 0 200px;
 }
 
 .interest-find-hotel {
