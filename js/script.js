@@ -14,24 +14,27 @@ seacrch.addEventListener('click', function (evt) {
 form.addEventListener('submit', function(evt){
   if (!checkIn.value || !departure.value){
     evt.preventDefault();
+    if (!checkIn.value) {
+      checkIn.classList.add('warning');
+    }
+    if (!departure.value) {
+      departure.classList.add('warning');
+    }
+    form.classList.remove('warning-animation');
+    form.offsetWidth = form.offsetWidth;
     form.classList.add('warning-animation');
-  }
-  if (!checkIn.value) {
-    checkIn.classList.add('warning');
-  }
-  if (!departure.value) {
-    departure.classList.add('warning');
   }
 });
 
 checkIn.addEventListener('click', function(){
   checkIn.classList.remove('warning');
-
   form.classList.remove('form-animation');
+  form.classList.remove('warning-animation');
 });
 departure.addEventListener('click', function(){
   departure.classList.remove('warning');
   form.classList.remove('form-animation');
+  form.classList.remove('warning-animation');
 });
 
 
