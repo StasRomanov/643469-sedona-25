@@ -98,7 +98,7 @@ input[type="radio"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   margin: 0 0 27px 0;
-  padding: 0 360px 0 360px;
+  padding: 0 350px 0 350px;
 }
 
 .description p {
@@ -112,7 +112,7 @@ input[type="radio"].visually-hidden {
   font-stretch: normal;
   letter-spacing: 0.1px;
   margin-bottom: 0;
-  padding: 0 350px 0 350px;
+  padding: 0 330px 0 330px;
 }
 
 .item-description,
@@ -142,6 +142,7 @@ input[type="radio"].visually-hidden {
 .features-list-other-item {
   background-color: #ffffff;
   min-height: 330px;
+  max-width: 1200px;
 }
 
 .interest-main-word {
@@ -410,6 +411,13 @@ input[type="radio"].visually-hidden {
   margin: 10px 0 0;
   max-width: 72px;
   word-wrap: break-word;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
 }
 
 .count-wrapper {
@@ -582,6 +590,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-align: stretch;
   align-items: stretch;
   list-style: none;
+  max-width: 1200px;
 }
 
 .home-icon {
@@ -601,7 +610,7 @@ input[type="radio"].visually-hidden {
 
 .devil-bridge {
   width: 302px;
-  padding: 44px 49px 44px 49px;
+  padding: 44px 49px 44px 30px;
 }
 
 .devil-bridge-jpg,
@@ -1322,6 +1331,10 @@ input[type="radio"].visually-hidden {
   top: 1px;
 }
 
+.checkbox:checked + .checkbox-label::after {
+  background-image: url("../img/checkbox-on.svg");
+}
+
 .checkbox:not(:checked),
 .checkbox:checked {
   display: none;
@@ -1794,10 +1807,12 @@ input[type="radio"].visually-hidden {
     right: 710px;
   }
   *::-ms-backdrop, .devil-bridge {
-    padding-bottom: 0;
+    padding-bottom: 30px;
   }
   *::-ms-backdrop, .main-footer {
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
   }
   *::-ms-backdrop, .checkbox-label {
     text-align: left;
@@ -1808,5 +1823,8 @@ input[type="radio"].visually-hidden {
   *::-ms-backdrop, .plus-wrapper {
     left: 9px;
     bottom: -17px;
+  }
+  *::-ms-backdrop, .calendar {
+    top: 8px;
   }
 }
