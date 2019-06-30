@@ -510,7 +510,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   position: relative;
   left: 14px;
-  bottom: 1px;
+  top: -1px;
 }
 
 .plus-part-1 {
@@ -1701,7 +1701,8 @@ input[type="radio"].visually-hidden {
   animation-duration: 0.6s;
   position: absolute;
   z-index: 3;
-  right: 449px;
+  right: 0;
+  left: 0;
 }
 
 .warning::-webkit-input-placeholder {
@@ -1803,9 +1804,6 @@ input[type="radio"].visually-hidden {
 /*ie 11*/
 @media all and (-ms-high-contrast:none)
 {
-  *::-ms-backdrop, .form-animation {
-    right: 710px;
-  }
   *::-ms-backdrop, .devil-bridge {
     padding-bottom: 30px;
   }
@@ -1826,5 +1824,21 @@ input[type="radio"].visually-hidden {
   }
   *::-ms-backdrop, .calendar {
     top: 8px;
+  }
+}
+
+/*mozila*/
+@-moz-document url-prefix() {
+  .plus-wrapper {
+    left: 9px;
+    bottom: -17px;
+  }
+}
+
+/* Microsoft Edge 16+ styles */
+@supports (-webkit-appearance:none) {
+  .plus-wrapper {
+    left: 9px;
+    bottom: -17px;
   }
 }
