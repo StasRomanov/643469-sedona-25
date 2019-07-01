@@ -970,6 +970,7 @@ input[type="radio"].visually-hidden {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: 0 0;
+  position: relative;
 }
 
 .main-footer {
