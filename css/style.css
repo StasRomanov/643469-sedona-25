@@ -977,7 +977,6 @@ input[type="radio"].visually-hidden {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 118px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -985,14 +984,12 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0;
-  padding-right: 12px;
-  padding-left: 12px;
+  padding: 29px 12px 40px;
 }
 
 .visit-container {
   min-width: 136px;
   min-height: 16px;
-  margin-top: 5px;
   margin-left: 30px;
 }
 
@@ -1247,13 +1244,8 @@ input[type="radio"].visually-hidden {
 }
 
 .social-buttons-container {
-  margin-top: 5px;
   margin-left: 73px;
   margin-right: 53px;
-}
-
-.footer-copyright-container {
-  padding-top: 6px;
 }
 
 .all-content2-container {
@@ -1808,11 +1800,6 @@ input[type="radio"].visually-hidden {
   *::-ms-backdrop, .devil-bridge {
     padding-bottom: 30px;
   }
-  *::-ms-backdrop, .main-footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: auto;
-  }
   *::-ms-backdrop, .checkbox-label {
     text-align: left;
   }
@@ -1833,11 +1820,6 @@ input[type="radio"].visually-hidden {
   .devil-bridge {
     padding-bottom: 30px;
   }
-  .main-footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: auto;
-  }
   .checkbox-label {
     text-align: left;
   }
@@ -1857,11 +1839,6 @@ input[type="radio"].visually-hidden {
 @supports (-webkit-appearance:none) {
   .devil-bridge {
     padding-bottom: 30px;
-  }
-  .main-footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: auto;
   }
   .checkbox-label {
     text-align: left;
