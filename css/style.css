@@ -276,6 +276,10 @@ input[type="radio"].visually-hidden {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 3;
 }
 
 .check-in-date-container,
@@ -465,6 +469,7 @@ input[type="radio"].visually-hidden {
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   padding: 0 0 0 14px;
+  width: 38px;
 }
 
 .find-hotel {
@@ -510,8 +515,8 @@ input[type="radio"].visually-hidden {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  left: 14px;
-  top: -1px;
+  top: 0;
+  left: 13px;
 }
 
 .plus-part-1 {
@@ -1679,35 +1684,10 @@ input[type="radio"].visually-hidden {
   animation-name: move;
   -webkit-animation-duration: 0.6s;
   animation-duration: 0.6s;
-  position: absolute;
-  z-index: 3;
-  right: 0;
-  left: 0;
-}
-
-.warning::-webkit-input-placeholder {
-  color: rgba(255, 14, 53, 0.65);
-}
-
-.warning::-moz-placeholder {
-  color: rgba(255, 14, 53, 0.65);
-}
-
-
-/* Firefox 19+ */
-
-.warning:-moz-placeholder {
-  color: rgba(255, 14, 53, 0.65);
-}
-
-
-/* Firefox 18- */
-
-.warning:-ms-input-placeholder {
-  color: rgba(255, 14, 53, 0.65);
 }
 
 .warning {
+  color: rgba(255, 14, 53, 0.65);
   outline: 2px solid #ff541e;
 }
 
@@ -1810,7 +1790,7 @@ input[type="radio"].visually-hidden {
     line-height: 11px;
   }
   .plus-wrapper {
-    left: 9px;
+    left: 8px;
     top: 17px;
   }
   .calendar {
@@ -1819,7 +1799,7 @@ input[type="radio"].visually-hidden {
 }
 
 /* Microsoft Edge 16+ styles */
-@supports (-webkit-appearance:none) {
+@supports (-ms-ime-align:auto) {
   .devil-bridge {
     padding-bottom: 30px;
   }
@@ -1830,7 +1810,7 @@ input[type="radio"].visually-hidden {
     line-height: 11px;
   }
   .plus-wrapper {
-    left: 9px;
+    left: 7px;
     top: 17px;
   }
   .calendar {
