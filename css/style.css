@@ -1791,7 +1791,7 @@ input[type="radio"].visually-hidden {
   }
   *::-ms-backdrop, .plus-wrapper {
     left: 9px;
-    bottom: -17px;
+    top: 17px;
   }
   *::-ms-backdrop, .calendar {
     top: 8px;
@@ -1811,7 +1811,7 @@ input[type="radio"].visually-hidden {
   }
   .plus-wrapper {
     left: 9px;
-    bottom: -17px;
+    top: 17px;
   }
   .calendar {
     top: 8px;
@@ -1831,7 +1831,7 @@ input[type="radio"].visually-hidden {
   }
   .plus-wrapper {
     left: 9px;
-    bottom: -17px;
+    top: 17px;
   }
   .calendar {
     top: 8px;
