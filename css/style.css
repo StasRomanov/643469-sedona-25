@@ -1851,6 +1851,6 @@ input[type="radio"].visually-hidden {
   border: none;
 }
 
-.check-in-date-form:focus::-ms-clear {
+input:focus::-ms-clear {
   display: none;
 }
