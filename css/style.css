@@ -614,7 +614,7 @@ input[type="radio"].visually-hidden {
 
 .devil-bridge {
   width: 302px;
-  padding: 44px 49px 44px 30px;
+  padding: 44px 49px 44px 49px;
 }
 
 .devil-bridge-jpg,
@@ -1849,4 +1849,8 @@ input[type="radio"].visually-hidden {
 .find-results-item-link--active {
   color: #81b3d2;
   border: none;
+}
+
+.check-in-date-form:focus::-ms-clear {
+  display: none;
 }
