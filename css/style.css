@@ -377,8 +377,9 @@ input[type="radio"].visually-hidden {
   border: solid 2px #e5e5e5;
   background-color: #ffffff;
   height: 34px;
-  width: 332px;
   outline: none;
+  padding-left: 8px;
+  width: 334px;
 }
 
 .input-wrapper {
@@ -392,19 +393,16 @@ input[type="radio"].visually-hidden {
   width: 22px;
   height: 22px;
   border: none;
-  bottom: 6px;
+  bottom: 8px;
   left: 314px;
   background-color: inherit;
   outline: none;
+  z-index: 4;
 }
 
-.calendar:focus .calendar-icon {
+.calendar:focus .calendar-icon,
+.calendar:hover .calendar-icon {
   fill: #000000;
-}
-
-.calendar-icon:hover {
-  fill: #000000;
-  outline: none;
 }
 
 .calendar:active .calendar-icon {
@@ -414,7 +412,7 @@ input[type="radio"].visually-hidden {
 .people {
   padding: 0;
   margin: 10px 0 0;
-  max-width: 72px;
+  max-width: 74px;
   word-wrap: break-word;
   font-size: 14px;
   font-weight: bold;
@@ -990,7 +988,7 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.9);
   margin-top: 0;
-  padding: 23px 12px 40px;
+  padding: 24px 12px 25px;
 }
 
 .visit-container {
@@ -1326,8 +1324,8 @@ input[type="radio"].visually-hidden {
   height: 23px;
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
-  left: -40px;
-  top: 1px;
+  left: -41px;
+  top: 0;
 }
 
 .checkbox:checked + .checkbox-label::after {
@@ -1385,6 +1383,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
   text-align: start;
   margin: 0;
+  width: 318px;
 }
 
 .filter-range-title {
@@ -1427,7 +1426,6 @@ input[type="radio"].visually-hidden {
 .price-controls .min-price,
 .price-controls .max-price {
   height: 33px;
-  padding-left: 65px;
   display: inline-block;
   vertical-align: middle;
   width: 93px;
@@ -1485,13 +1483,21 @@ input[type="radio"].visually-hidden {
 }
 
 .range-toggle-max {
-  left: 80%;
+  left: 79%;
+}
+
+.max-price {
+  padding-left: 53px;
+}
+
+.min-price {
+  padding-left: 63px;
 }
 
 .btn-transparent {
   display: block;
   margin: 0 83px;
-  padding: 6px 35px;
+  padding: 6px 34px;
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
@@ -1634,7 +1640,7 @@ input[type="radio"].visually-hidden {
   margin-top: -118px;
   z-index: 1;
   position: relative;
-  padding-top: 23px;
+  padding-top: 29px;
 }
 
 @-webkit-keyframes move {
