@@ -1767,7 +1767,7 @@ input[type="radio"].visually-hidden {
 @media all and (-ms-high-contrast:none)
 {
   *::-ms-backdrop, .devil-bridge {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   *::-ms-backdrop, .checkbox-label {
     text-align: left;
