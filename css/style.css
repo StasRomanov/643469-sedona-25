@@ -594,7 +594,7 @@ input[type="radio"].visually-hidden {
   -ms-flex-align: stretch;
   align-items: stretch;
   list-style: none;
-  max-width: 1200px;
+  width: 1200px;
 }
 
 .home-icon {
@@ -644,7 +644,7 @@ input[type="radio"].visually-hidden {
 }
 
 .features-sublist-item {
-  padding: 59px 57px 62px 74px;
+  padding: 59px 54px 62px 70px;
 }
 
 
