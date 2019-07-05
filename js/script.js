@@ -2,7 +2,6 @@ var seacrch = document.querySelector('.interest-find-hotel');
 var form = document.querySelector('form');
 var checkIn = document.querySelector('.check-in-date-form');
 var departure = document.querySelector('.departure-date-form');
-var adults = document.querySelector('.adults-counter');
 
 form.classList.add('search-hidden');
 seacrch.addEventListener('click', function (evt) {

@@ -1776,7 +1776,7 @@ input[type="radio"].visually-hidden {
     line-height: 11px;
   }
   *::-ms-backdrop, .plus-wrapper {
-    left: 9px;
+    left: 14px;
     top: 17px;
   }
   *::-ms-backdrop, .calendar {
